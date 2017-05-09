@@ -1,0 +1,66 @@
+@mixin styleTextmobi {
+  font-size: 12.5px;
+  letter-spacing: 1px;
+}
+
+@mixin styleTexttablet {
+  font-size: 11px;
+
+}
+
+@media only screen and (min-width: 1220px) {
+  .container {
+    min-width: 1600px;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .img-main {
+    min-height: 795px;
+    min-width: 768px;
+    background-size: 163% 89%;
+    background-position: -247px -4px;
+    background-repeat: no-repeat;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .bg {
+    padding: 0 5px;
+    .text-1 {
+      @include styleTexttablet;
+      letter-spacing: 1px;
+    }
+    .text-2 {
+      @include styleTexttablet;
+      letter-spacing: 1px;
+    }
+  }
+  .img-main {
+    min-height: 500px;
+    min-width: 768px;
+    background-size: 135% 91.5%;
+    background-position: -139px 0px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .bg {
+    padding: 0 5px;
+    .text-1 {
+      @include styleTextmobi;
+    }
+    .text-2 {
+      @include styleTextmobi;
+      font-size: 12.5px;
+    }
+  }
+  .img-main {
+    min-height: 233px;
+    min-width: 320px;
+    background-size: 181% 99%;
+    background-position: -83px -36px;
+  }
+}
