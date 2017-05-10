@@ -8,11 +8,16 @@
 
 }
 
-@media only screen and (min-width: 1220px) {
-  .container {
-    min-width: 1600px;
-    margin: 0;
-    padding: 0;
+@media (min-width: 1220px) {
+  //.container {
+  //  min-width: 1600px;
+  //  margin: 0;
+  //  padding: 0;
+  //}
+  .slick-banner {
+    .img-main {
+      //background: url(images/bg-main.png) no-repeat 0% 83%;
+    }
   }
 }
 
@@ -27,40 +32,145 @@
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  .bg {
-    padding: 0 5px;
-    .text-1 {
-      @include styleTexttablet;
-      letter-spacing: 1px;
+  .slick-header {
+    .slick-dots {
+      display: none!important;
     }
-    .text-2 {
-      @include styleTexttablet;
-      letter-spacing: 1px;
+    .bg {
+      padding: 0 5px;
+      .text-1 {
+        @include styleTexttablet;
+        letter-spacing: 1px;
+      }
+      .text-2 {
+        @include styleTexttablet;
+        letter-spacing: 1px;
+      }
     }
   }
-  .img-main {
-    min-height: 500px;
-    min-width: 768px;
-    background-size: 135% 91.5%;
-    background-position: -139px 0px;
+  .slick-banner {
+    .slick-dots {
+      bottom: 11%;
+      left: -0.4%;
+      li {
+        margin: 0px -1.5px 0 0;
+        button:before {
+          width: 11px;
+          height: 11px;
+          border-radius: 11px;
+          color: #999999;
+        }
+      }
+    }
+    .img-main {
+      min-height: 500px;
+      //min-width: 768px;
+      background-size: 135% 91.5%;
+      background-position: -139px 0px;
+      .text-on-bg {
+        top: 34%;
+        left: 10.5%;
+        .text-1 {
+          font-size: 25px;
+          padding: 0;
+        }
+        .text-margin {
+          letter-spacing: -1px;
+        }
+        .text-2 {
+          font-size: 15px;
+          margin: -1% 0 0 -10%;
+          letter-spacing: 0.6px;
+        }
+        button {
+          padding: 0% 5% 0 5%;
+          margin: 12% 0 0 14%;
+          .text-button {
+            font-size: 16px;
+            vertical-align: baseline;
+            vertical-align: -moz-middle-with-baseline;
+
+          }
+        }
+      }
+      .text-on-bg:after {
+        content: '';
+        background-color: #212120;
+        width: 205px;
+        height: 2px;
+        position: absolute;
+        top: 30%;
+        left: -19%;
+      }
+    }
   }
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
-  .bg {
-    padding: 0 5px;
-    .text-1 {
-      @include styleTextmobi;
+  .slick-header {
+    .slick-dots {
+      display: none!important;
     }
-    .text-2 {
-      @include styleTextmobi;
-      font-size: 12.5px;
+    .bg {
+      padding: 0 5px;
+      .text-1 {
+        @include styleTextmobi;
+      }
+      .text-2 {
+        @include styleTextmobi;
+        font-size: 12.5px;
+      }
     }
   }
-  .img-main {
-    min-height: 233px;
-    min-width: 320px;
-    background-size: 181% 99%;
-    background-position: -83px -36px;
+  .slick-banner {
+    .slick-dots {
+      bottom: 19%;
+      li {
+        margin: 0px -1.5px 0 0;
+        button:before {
+          width: 11px;
+          height: 11px;
+          border-radius: 11px;
+          color: #999999;
+        }
+      }
+    }
+    .img-main {
+      min-height: 233px;
+      //min-width: 320px;
+      background-size: 181% 99%;
+      background-position: -83px -36px;
+      .text-on-bg {
+        top: 23.5%;
+        left: 11%;
+        .text-1 {
+          font-size: 15px;
+          padding: 0;
+        }
+        .text-2 {
+          font-size: 11px;
+          margin: -1% 0 0 -18%;
+        }
+        button {
+          padding: 0 7% 0 7%;
+          margin: 8% 0 0 0;
+          .text-button {
+            font-size: 16px;
+            vertical-align: baseline;
+            vertical-align: -moz-middle-with-baseline;
+
+          }
+        }
+      }
+      .text-on-bg:after {
+        content: '';
+        background-color: #212120;
+        width: 129px;
+        height: 2px;
+        position: absolute;
+        top: 28%;
+        left: -18%;
+      }
+    }
   }
 }
