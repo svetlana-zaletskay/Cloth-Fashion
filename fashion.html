@@ -19,110 +19,157 @@
         <header>
             <div class="main">
                 <nav class="menu-nav-mobi">
-                    <div class="bg-nav">
-                        <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
-                            <span class="icon-bar icon-1"></span>
-                            <span class="icon-bar icon-2"></span>
-                            <span class="icon-bar icon-3"></span>
-                        </button>
-                        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-                             aria-hidden="true">
-                            <div class="modal-dialog">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
-                                            &times;
-                                        </button>
-                                        <h4 class="modal-title" id="myModalLabel">MENU</h4>
-                                    </div>
-                                    <div class="modal-body">
-                                        <input class="style-placeholder" type="text"
-                                               placeholder="O QUE ESTÁ PROCURANDO ?"/>
-                                        <button type="button"></button>
-                                    </div>
-                                    <div class="modal-footer">
-                                        <div class="panel-group" id="accordionMobi">
-                                            <div class="panel panel-default">
-                                                <div class="panel-heading">
-                                                    <h4 class="panel-title">
-                                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">SOBRE</a>
-                                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">></a>
-                                                    </h4>
-                                                </div>
-                                                <div id="collapseOne" class="panel-collapse collapse in">
-                                                    <div class="panel-body">
-                                                        <p><a href="#">CATEGORIA</a></p>
-                                                        <p><a href="#">CATEGORIA</a></p>
-                                                        <p><a href="#">CATEGORIA</a></p>
-                                                        <p><a href="#">CATEGORIA</a></p>
+                    <div class="bg-nav col-xs-12">
+                        <div class="wrapper-mobi">
+                            <button class="btn btn-primary btn-lg col-xs-2" data-toggle="modal" data-target="#myModal">
+                                <span class="icon-bar icon-1"></span>
+                                <span class="icon-bar icon-2"></span>
+                                <span class="icon-bar icon-3"></span>
+                            </button>
+                            <div class="modal fade" id="myModal" tabindex="-1" role="dialog"
+                                 aria-labelledby="myModalLabel"
+                                 aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h4 class="col-lg-8 col-md-1 col-xs-10  modal-title" id="myModalLabel">MENU</h4>
+                                            <button type="button" class="col-lg-1 col-md-1 col-sm-1 col-xs-2 close close-button"
+                                                    data-dismiss="modal" aria-hidden="true">&#215;
+                                            </button>
+                                        </div>
+                                        <div class="modal-body col-xs-12">
+                                            <input class="style-placeholder col-xs-10" type="text"
+                                                   placeholder="O QUE ESTÁ PROCURANDO ?"/>
+                                            <button class="search col-lg-1 col-md-1 col-sm-1 col-xs-2" type="button"><i
+                                                    class="fa fa-search"
+                                                    aria-hidden="true"></i></button>
+                                        </div>
+                                        <div class="modal-footer col-xs-12">
+                                            <div class="panel-group" id="accordionMobi">
+                                                <div class="panel panel-default">
+                                                    <div class="panel-heading">
+                                                        <h4 class="panel-title">
+                                                            <a class="" data-toggle="collapse" data-parent="#accordion"
+                                                               href="#collapseOne">SOBRE</a>
+                                                            <a class="col-desk-right" data-toggle="collapse" data-parent="#accordion"
+                                                               href="#collapseOne">+</a>
+                                                        </h4>
                                                     </div>
-                                                </div>
-                                            </div>
-                                            <div class="panel panel-default">
-                                                <div class="panel-heading">
-                                                    <h4 class="panel-title">
-                                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">COLEÇÕES</a>
-                                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">></a>
-                                                    </h4>
-                                                </div>
-                                                <div id="collapseTwo" class="panel-collapse collapse">
-                                                    <div class="panel-body">
-                                                        <p><a href="#">CATEGORIA</a></p>
-                                                        <p><a href="#">CATEGORIA</a></p>
-                                                        <p><a href="#">CATEGORIA</a></p>
-                                                        <p><a href="#">CATEGORIA</a></p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="panel panel-default">
-                                                <div class="panel-heading">
-                                                    <h4 class="panel-title">
-                                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">CATEGORIA</a>
-                                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">></a>
-                                                    </h4>
-                                                </div>
-                                                <div id="collapseThree" class="panel-collapse collapse">
-                                                    <div class="panel-body">
-                                                        <p><a href="#">CATEGORIA</a></p>
-                                                        <p><a href="#">CATEGORIA</a></p>
-                                                        <p><a href="#">CATEGORIA</a></p>
-                                                        <p><a href="#">CATEGORIA</a></p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="panel panel-default">
-                                                <div class="panel-heading">
-                                                    <h4 class="panel-title">
-                                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">LOOKS</a>
-                                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">></a>
-                                                    </h4>
-                                                </div>
-                                                <div id="collapseFour" class="panel-collapse collapse">
-                                                    <div class="panel-body">
+                                                    <div id="collapseOne" class="panel-collapse collapse in">
                                                         <div class="panel-body">
-                                                            <p><a href="#">CATEGORIA</a></p>
-                                                            <p><a href="#">CATEGORIA</a></p>
-                                                            <p><a href="#">CATEGORIA</a></p>
-                                                            <p><a href="#">CATEGORIA</a></p>
+                                                            <p><a href="#">CATEGORIA</a><a
+                                                                    class="categoria-button">></a>
+                                                            </p>
+                                                            <p><a href="#">CATEGORIA</a><a
+                                                                    class="categoria-button">></a>
+                                                            </p>
+                                                            <p><a href="#">CATEGORIA</a><a
+                                                                    class="categoria-button">></a>
+                                                            </p>
+                                                            <p><a href="#">CATEGORIA</a><a
+                                                                    class="categoria-button">></a>
+                                                            </p>
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </div>
-                                            <div class="panel panel-default">
-                                                <div class="panel-heading">
-                                                    <h4 class="panel-title">
-                                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">CONTATO</a>
-                                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse">></a>
-
-                                                    </h4>
-                                                </div>
-                                                <div id="collapseFive" class="panel-collapse collapse">
-                                                    <div class="panel-body">
+                                                <div class="panel panel-default">
+                                                    <div class="panel-heading">
+                                                        <h4 class="panel-title">
+                                                            <a data-toggle="collapse" data-parent="#accordion"
+                                                               href="#collapseTwo">COLEÇÕES</a>
+                                                            <a data-toggle="collapse" data-parent="#accordion"
+                                                               href="#collapseTwo">+</a>
+                                                        </h4>
+                                                    </div>
+                                                    <div id="collapseTwo" class="panel-collapse collapse">
                                                         <div class="panel-body">
-                                                            <p><a href="#">CATEGORIA</a></p>
-                                                            <p><a href="#">CATEGORIA</a></p>
-                                                            <p><a href="#">CATEGORIA</a></p>
-                                                            <p><a href="#">CATEGORIA</a></p>
+                                                            <p><a href="#">CATEGORIA</a><a
+                                                                    class="categoria-button">></a>
+                                                            </p>
+                                                            <p><a href="#">CATEGORIA</a><a
+                                                                    class="categoria-button">></a>
+                                                            </p>
+                                                            <p><a href="#">CATEGORIA</a><a
+                                                                    class="categoria-button">></a>
+                                                            </p>
+                                                            <p><a href="#">CATEGORIA</a><a
+                                                                    class="categoria-button">></a>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="panel panel-default">
+                                                    <div class="panel-heading">
+                                                        <h4 class="panel-title">
+                                                            <a data-toggle="collapse" data-parent="#accordion"
+                                                               href="#collapseThree">CATEGORIA</a>
+                                                            <a data-toggle="collapse" data-parent="#accordion"
+                                                               href="#collapseThree">+</a>
+                                                        </h4>
+                                                    </div>
+                                                    <div id="collapseThree" class="panel-collapse collapse">
+                                                        <div class="panel-body">
+                                                            <p><a href="#">CATEGORIA</a><a
+                                                                    class="categoria-button">></a>
+                                                            </p>
+                                                            <p><a href="#">CATEGORIA</a><a
+                                                                    class="categoria-button">></a>
+                                                            </p>
+                                                            <p><a href="#">CATEGORIA</a><a
+                                                                    class="categoria-button">></a>
+                                                            </p>
+                                                            <p><a href="#">CATEGORIA</a><a
+                                                                    class="categoria-button">></a>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="panel panel-default">
+                                                    <div class="panel-heading">
+                                                        <h4 class="panel-title">
+                                                            <a data-toggle="collapse" data-parent="#accordion"
+                                                               href="#collapseFour">LOOKS</a>
+                                                            <a data-toggle="collapse" data-parent="#accordion"
+                                                               href="#collapseFour">+</a>
+                                                        </h4>
+                                                    </div>
+                                                    <div id="collapseFour" class="panel-collapse collapse">
+                                                        <div class="panel-body">
+                                                            <div class="panel-body">
+                                                                <p><a href="#">CATEGORIA</a><a
+                                                                        class="categoria-button">></a></p>
+                                                                <p><a href="#">CATEGORIA</a><a
+                                                                        class="categoria-button">></a></p>
+                                                                <p><a href="#">CATEGORIA</a><a
+                                                                        class="categoria-button">></a></p>
+                                                                <p><a href="#">CATEGORIA</a><a
+                                                                        class="categoria-button">></a></p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="panel panel-default">
+                                                    <div class="panel-heading">
+                                                        <h4 class="panel-title">
+                                                            <a data-toggle="collapse" data-parent="#accordion"
+                                                               href="#collapseFive">CONTATO</a>
+                                                            <a data-toggle="collapse" data-parent="#accordion"
+                                                               href="#collapse">+</a>
+
+                                                        </h4>
+                                                    </div>
+                                                    <div id="collapseFive" class="panel-collapse collapse">
+                                                        <div class="panel-body">
+                                                            <div class="panel-body">
+                                                                <p><a href="#">CATEGORIA</a><a
+                                                                        class="categoria-button">></a></p>
+                                                                <p><a href="#">CATEGORIA</a><a
+                                                                        class="categoria-button">></a></p>
+                                                                <p><a href="#">CATEGORIA</a><a
+                                                                        class="categoria-button">></a></p>
+                                                                <p><a href="#">CATEGORIA</a><a
+                                                                        class="categoria-button">></a></p>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -131,10 +178,15 @@
                                     </div>
                                 </div>
                             </div>
+                            <div class="nav-h col-lg-6 col-xs-8"><span class="style-h">CLOTH & FASHION</span></div>
+                            <div class="col-lg-3 col-xs-2 div-login">
+                                <div class="nav-login col-lg-5"><span class="style-login">LOGIN</span></div>
+                                <div class="nav-basket"><img src="images/basket.png"/></div>
+                            </div>
                         </div>
                     </div>
                 </nav>
-                <div class="slick-header">
+                <div id="xxxx" class="slick-header">
                     <div class="bg">
                         <span class="text-1"><b>FRETE GRÁTIS</b></span>
                         <span class="text-2">PARA COMPRAS ACIMA DE R$300,00</span>
@@ -190,112 +242,162 @@
                         </div>
                     </div>
                 </div>
-                <nav class="menu-nav-desk">
-                    <div class="bg-nav">
-                        <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal-2">
+                <nav class="col-lg-12 menu-nav-desk">
+                    <div class="bg-nav col-lg-12 ">
+                        <button class="btn btn-primary btn-lg col-lg-3" data-toggle="modal" data-target="#myModal-2">
                             <span class="icon-bar icon-1"></span>
                             <span class="icon-bar icon-2"></span>
                             <span class="icon-bar icon-3"></span>
                         </button>
-                        <div class="modal fade" id="myModal-2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel-2"
+                        <div class="modal fade" id="myModal-2" tabindex="-1" role="dialog"
+                             aria-labelledby="myModalLabel-2"
                              aria-hidden="true">
-                            <div class="modal-dialog">
+                            <div class="row modal-dialog">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
-                                            &times;
+                                        <h4 class="col-lg-8 col-md-1  modal-title" id="myModalLabel-2">MENU</h4>
+                                        <button type="button" class="col-lg-1 col-md-1 col-sm-1 close"
+                                                data-dismiss="modal" aria-hidden="true">&#215;
                                         </button>
-                                        <h4 class="modal-title" id="myModalLabel-2">MENU</h4>
                                     </div>
-                                    <div class="modal-body">
-                                        <input class="style-placeholder" type="text"
-                                               placeholder="O QUE ESTÁ PROCURANDO ?"/>
-                                        <button type="button"></button>
+                                    <div class="modal-body col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <div class="wrapper-header">
+                                            <input class="style-placeholder col-xs-10" type="text"
+                                                   placeholder="O QUE ESTÁ PROCURANDO ?"/>
+                                            <button class="search col-lg-1 col-md-1 col-sm-1 col-xs-2" type="button"><i
+                                                    class="fa fa-search"
+                                                    aria-hidden="true"></i></button>
+                                        </div>
                                     </div>
                                     <div class="modal-footer">
                                         <div class="panel-group" id="accordionDesk">
                                             <div class="panel panel-default">
                                                 <div class="panel-heading">
                                                     <h4 class="panel-title">
-                                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOneMobi">SOBRE</a>
-                                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOneMobi">></a>
+                                                        <a class="title title-first" data-toggle="collapse"
+                                                           data-parent="#accordion" href="#collapseTwoMobi">SOBRE</a>
+                                                        <a class="button-acordion" data-toggle="collapse"
+                                                           data-parent="#accordion" href="#collapseOneMobi">+</a>
                                                     </h4>
                                                 </div>
                                                 <div id="collapseOneMobi" class="panel-collapse collapse in">
                                                     <div class="panel-body">
-                                                        <p><a href="#">CATEGORIA</a></p>
-                                                        <p><a href="#">CATEGORIA</a></p>
-                                                        <p><a href="#">CATEGORIA</a></p>
-                                                        <p><a href="#">CATEGORIA</a></p>
+                                                        <p><a class="categoria" href="#">CATEGORIA</a><i
+                                                                class="fa fa-angle-right"
+                                                                aria-hidden="true"></i></p>
+                                                        <p><a class="categoria" href="#">CATEGORIA</a><i
+                                                                class="fa fa-angle-right"
+                                                                aria-hidden="true"></i></p>
+                                                        <p><a class="categoria" href="#">CATEGORIA</a><i
+                                                                class="fa fa-angle-right"
+                                                                aria-hidden="true"></i></p>
+                                                        <p><a class="categoria" href="#">CATEGORIA</a><i
+                                                                class="fa fa-angle-right"
+                                                                aria-hidden="true"></i></p>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="panel panel-default">
                                                 <div class="panel-heading">
                                                     <h4 class="panel-title">
-                                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwoMobi">COLEÇÕES</a>
-                                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwoMobi">></a>
+                                                        <a class="title" data-toggle="collapse"
+                                                           data-parent="#accordion" href="#collapseTwoMobi">COLEÇÕES</a>
+                                                        <a class="button-acordion" data-toggle="collapse"
+                                                           data-parent="#accordion" href="#collapseTwoMobi">+</a>
                                                     </h4>
                                                 </div>
                                                 <div id="collapseTwoMobi" class="panel-collapse collapse">
                                                     <div class="panel-body">
-                                                        <p><a href="#">CATEGORIA</a></p>
-                                                        <p><a href="#">CATEGORIA</a></p>
-                                                        <p><a href="#">CATEGORIA</a></p>
-                                                        <p><a href="#">CATEGORIA</a></p>
+                                                        <p><a class="categoria" href="#">CATEGORIA</a><i
+                                                                class="fa fa-angle-right"
+                                                                aria-hidden="true"></i></p>
+                                                        <p><a class="categoria" href="#">CATEGORIA</a><i
+                                                                class="fa fa-angle-right"
+                                                                aria-hidden="true"></i></p>
+                                                        <p><a class="categoria" href="#">CATEGORIA</a><i
+                                                                class="fa fa-angle-right"
+                                                                aria-hidden="true"></i></p>
+                                                        <p><a class="categoria" href="#">CATEGORIA</a><i
+                                                                class="fa fa-angle-right"
+                                                                aria-hidden="true"></i></p>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="panel panel-default">
                                                 <div class="panel-heading">
                                                     <h4 class="panel-title">
-                                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseThreeMobi">CATEGORIA</a>
-                                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseThreeMobi">></a>
+                                                        <a class="title" data-toggle="collapse"
+                                                           data-parent="#accordion"
+                                                           href="#collapseThreeMobi">CATEGORIA</a>
+                                                        <a class="button-acordion col-desk-right-4" data-toggle="collapse"
+                                                           data-parent="#accordion" href="#collapseThreeMobi">+</a>
                                                     </h4>
                                                 </div>
                                                 <div id="collapseThreeMobi" class="panel-collapse collapse">
                                                     <div class="panel-body">
-                                                        <p><a href="#">CATEGORIA</a></p>
-                                                        <p><a href="#">CATEGORIA</a></p>
-                                                        <p><a href="#">CATEGORIA</a></p>
-                                                        <p><a href="#">CATEGORIA</a></p>
+                                                        <p><a class="categoria" href="#">CATEGORIA</a><i
+                                                                class="fa fa-angle-right"
+                                                                aria-hidden="true"></i></p>
+                                                        <p><a class="categoria" href="#">CATEGORIA</a><i
+                                                                class="fa fa-angle-right"
+                                                                aria-hidden="true"></i></p>
+                                                        <p><a class="categoria" href="#">CATEGORIA</a><i
+                                                                class="fa fa-angle-right"
+                                                                aria-hidden="true"></i></p>
+                                                        <p><a class="categoria" href="#">CATEGORIA</a><i
+                                                                class="fa fa-angle-right"
+                                                                aria-hidden="true"></i></p>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="panel panel-default">
                                                 <div class="panel-heading">
                                                     <h4 class="panel-title">
-                                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseFourMobi">LOOKS</a>
-                                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseFourMobi">></a>
+                                                        <a class="title" data-toggle="collapse"
+                                                           data-parent="#accordion" href="#collapseFourMobi">LOOKS</a>
+                                                        <a class="button-acordion" data-toggle="collapse"
+                                                           data-parent="#accordion" href="#collapseFourMobi">+</a>
                                                     </h4>
                                                 </div>
                                                 <div id="collapseFourMobi" class="panel-collapse collapse">
                                                     <div class="panel-body">
-                                                        <div class="panel-body">
-                                                            <p><a href="#">CATEGORIA</a></p>
-                                                            <p><a href="#">CATEGORIA</a></p>
-                                                            <p><a href="#">CATEGORIA</a></p>
-                                                            <p><a href="#">CATEGORIA</a></p>
-                                                        </div>
+                                                        <p><a class="categoria" href="#">CATEGORIA</a><i
+                                                                class="fa fa-angle-right"
+                                                                aria-hidden="true"></i></p>
+                                                        <p><a class="categori" href="#">CATEGORIA</a><i
+                                                                class="fa fa-angle-right"
+                                                                aria-hidden="true"></i></p>
+                                                        <p><a class="categoria" href="#">CATEGORIA</a><i
+                                                                class="fa fa-angle-right col-lg-4"
+                                                                aria-hidden="true"></i></p>
+                                                        <p><a class="categoria" href="#">CATEGORIA</a><i
+                                                                class="fa fa-angle-right "
+                                                                aria-hidden="true"></i></p>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="panel panel-default">
                                                 <div class="panel-heading">
                                                     <h4 class="panel-title">
-                                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseFiveMobi">CONTATO</a>
-                                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseFiveMobi">></a>
+                                                        <a class="title" data-toggle="collapse"
+                                                           data-parent="#accordion" href="#collapseFiveMobi">CONTATO</a>
+                                                        <a class="button-acordion" data-toggle="collapse"
+                                                           data-parent="#accordion" href="#collapseFiveMobi">+</a>
 
                                                     </h4>
                                                 </div>
                                                 <div id="collapseFiveMobi" class="panel-collapse collapse">
                                                     <div class="panel-body">
-                                                        <div class="panel-body">
-                                                            <p><a href="#">CATEGORIA</a></p>
-                                                            <p><a href="#">CATEGORIA</a></p>
-                                                            <p><a href="#">CATEGORIA</a></p>
-                                                            <p><a href="#">CATEGORIA</a></p>
-                                                        </div>
+                                                        <p><a class="categoria" href="#">CATEGORIA</a><i
+                                                                class="fa fa-angle-right"
+                                                                aria-hidden="true"></i></p>
+                                                        <p><a class="categoria" href="#">CATEGORIA</a><i class="fa fa-angle-right"aria-hidden="true"></i></p>
+                                                        <p><a class="categori col-lg-8" href="#">CATEGORIA</a><i
+                                                                class="fa fa-angle-right"
+                                                                aria-hidden="true"></i></p>
+                                                        <p><a class="categoria" href="#">CATEGORIA</a><i
+                                                                class="fa fa-angle-right"
+                                                                aria-hidden="true"></i></p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -303,6 +405,11 @@
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                        <div class="nav-h col-lg-6"><span class="style-h">CLOTH & FASHION</span></div>
+                        <div class="col-lg-3 div-login">
+                            <div class="nav-login col-lg-5"><span class="style-login">LOGIN</span></div>
+                            <div class="nav-basket"><img src="images/basket.png"/></div>
                         </div>
                     </div>
                 </nav>
@@ -316,6 +423,7 @@
 </div>
 <script type="text/javascript" src="js/jquery-3.1.1.js"></script>
 <script type="text/javascript" src="slick/slick.min.js"></script>
+<script src="https://use.fontawesome.com/84b98b5bc0.js"></script>
 <script type="text/javascript" src="js/bootstrap.js"></script>
 <script type="text/javascript" src="js/fashion.js"></script>
 </body>

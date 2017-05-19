@@ -10,6 +10,13 @@
   font-size: 35px;
 }
 
+@mixin modalTitle {
+  color: #fff;
+  font-family: Rajdhani, sans-serif;
+  font-size: 20px;
+  background-color: #000000;
+}
+
 .slick-dotted.slick-slider {
   margin: 0;
 }
@@ -19,6 +26,7 @@
     display: none !important;
   }
 }
+
 .slick-header {
   .slick-dots {
     top: 0;
@@ -65,13 +73,14 @@
     }
   }
 }
+
 .slick-banner {
   .slick-dots {
     bottom: 4%;
     text-align: -webkit-center;
     text-align: -moz-center;
     li {
-      margin: 0px 8px 0 0;
+      margin: 0 8px 0 0;
       width: 17px;
       height: 16px;
       button {
@@ -94,7 +103,7 @@
     background-color: #000;
   }
   .img-main {
-    background: url("images/bg-main.png") no-repeat 0% 83%;
+    background: url("images/bg-main.png") no-repeat 0 83%;
     min-height: 706px;
     background-size: cover;
     position: relative;
@@ -141,84 +150,181 @@
     }
   }
 }
+
 .menu-nav-desk {
-  .bg-nav {
-    background-color: #000000;
+  padding: 0;
+}
+
+.menu-nav-desk .bg-nav {
+  background-color: #000000;
+  position: relative;
+  padding: 0;
+  .btn-primary {
+    background-color: #000;
+    color: #000;
+    border: none;
+    border-radius: 0;
     position: relative;
-    .btn-primary {
-      background-color: #000;
-      color: #000;
-      border: none;
+    .icon-bar {
+      content: '';
+      width: 27px;
+      height: 3px;
+      background-color: #fff;
+      position: absolute;
+    }
+    .icon-1 {
+      top: 2px;
+    }
+    .icon-2 {
+      top: 9px;
+    }
+    .icon-3 {
+      top: 16px;
+    }
+  }
+  .modal {
+    top: 0;
+    background: rgba(255, 255, 255, 0.5);
+    color: #fff;
+  }
+  .modal-dialog {
+    top: 8%;
+    width: 40%;
+    .modal-content {
       border-radius: 0;
-      position: relative;
-      margin: 0.3% 0 0.3% 6%;
-      .icon-bar {
-        content: '';
-        width: 27px;
-        height: 3px;
-        background-color: #fff;
-        position: absolute;
-      }
-      .icon-1 {
-        top: 2px;
-      }
-      .icon-2 {
-        top: 9px;
-      }
-      .icon-3 {
-        top: 16px;
-      }
-    }
-    .modal {
-      top: 0;
-    }
-    .modal-dialog {
-      background-color: #000;
-      width: 34%;
-      margin: 0 2%;
-      top: 8%;
-      .modal-content {
-        border-radius: 0;
-        margin: -5%;
+      padding: 0;
+      margin: 0;
+      width: 94%;
+      .modal-header {
+        background-color: #000000;
+        padding: 13px 0 8px 0;
+        border: none;
+        button {
+          color: #fff;
+          opacity: 1;
+          background-color: transparent;
+          margin: 0;
+          font-size: 28px;
+          font-weight: 100;
+          font-family: Rjdhania, sans-serif;
+          float: right;
 
-        .modal-header {
-          background-color: #000;
-          padding: 0;
-          border: none;
-          button {
-            color: #fff;
-            opacity: 1;
-            background-color: transparent;
-            margin: -2% 0% -2% 0;
-
-            font-size: 70px;
-            font-weight: 300;
-            font-family: Rajdhani, sans-serif;
-            padding: 0;
-            width: 55px;
-            height: 30px;
-          }
         }
-        .modal-body {
+      }
+      .modal-body {
+        background-color: #000000;
+        padding: 0 15px;
+        border-top: 1px solid #000000;
+        .wrapper-header {
           background-color: #b1b1b1;
+          text-align: -webkit-right;
+          text-align: -moz-right;
+          border: 1px;
+          padding: 9px 0;
           .style-placeholder {
             font-family: Rajdhani, sans-serif;
             font-size: 16px;
-            padding: 1.5% 29% 1.5% 4%;
-            margin: 0% 29%;
+            width: 63%;
             line-height: 23px;
+            border: none;
+            color: #000000;
+            padding: 10px 4px;
+            margin: 0 0 0 145px;
+
+          }
+          .search {
+            background-color: #000000;
+            border: none;
+            float: none;
+            padding: 0 5px;
+            margin: 0 8px 0 5px;
+          }
+          .fa {
+            font-size: 20px;
+            padding: 9px 8px 12px 9px;
           }
         }
-        .modal-title {
-          color: #fff;
+      }
+      .modal-title {
+        color: #fff;
+        font-family: Rajdhani, sans-serif;
+        font-size: 20px;
+        text-align: -webkit-center;
+        text-align: -moz-center;
+      }
+      .modal-footer {
+        border: none;
+        background-color: #000000;
+        padding: 0 15px;
+      }
+      .panel-group {
+        margin-bottom: 0;
+      }
+      .panel {
+        border-radius: 0;
+        margin: 0;
+      }
+      .panel-heading {
+        background-color: #fff;
+        margin: 0 0 0 144px;
+        padding: 21px 15px 16px 15px;
+        .title {
           font-family: Rajdhani, sans-serif;
-          font-size: 20px;
-          padding: 1.7% 0 1% 30.5%;
+          font-size: 21px;
+          font-weight: 600;
+          float: left;
         }
-        .modal-footer {
-          border: none;
+        .button-acordion {
+          font-size: 27px;
+          text-decoration: none;
         }
       }
     }
+    .panel-body {
+      background-color: #000000;
+      padding: 0;
+      p {
+        border-bottom: 1px solid #fff;
+        float: left;
+        width: 100%;
+        padding: 10px 0 10px 160px;
+        margin: 0;
+
+        .categoria {
+          @include modalTitle;
+          text-decoration: none;
+          float: left;
+        }
+      }
+      .fa{
+        padding: 0 17px 0 0;
+      }
+    }
+    .panel-body i:before {
+      font-size: 20px;
+    }
+  }
+  .nav-basket, .nav-login {
+    padding: 0;
+  }
+  .nav-h, .nav-login {
+    text-align: -webkit-center;
+    text-align: -moz-center;
+    .style-h, .style-login {
+      color: #ffffff;
+      font-family: Rajdhani, sans-serif;
+      font-weight: 600;
+      font-size: 28px;
+    }
+    .style-login {
+      font-weight: 400;
+      font-size: 27px;
+      padding: 0;
+      letter-spacing: 2px;
+    }
+  }
+  .nav-basket img {
+    vertical-align: text-top;
   }
 }
+
