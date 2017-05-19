@@ -468,6 +468,40 @@ html {
         line-height: 30px; }
       .menu-nav-mobi .modal-dialog .modal-footer {
         padding: 0; }
+        .menu-nav-mobi .modal-dialog .modal-footer .panel-group .panel {
+          border-radius: 0;
+          border: none;
+          margin: 0; }
+        .menu-nav-mobi .modal-dialog .modal-footer .panel-title a {
+          font-family: Rajdhani, sans-serif;
+          font-size: 16px;
+          text-decoration: none; }
+        .menu-nav-mobi .modal-dialog .modal-footer .panel-title .title {
+          text-align: -webkit-left;
+          text-align: -moz-left; }
+        .menu-nav-mobi .modal-dialog .modal-footer .panel-default .panel-heading {
+          border-bottom: 1px solid #dddddd;
+          background-color: #ffffff; }
+        .menu-nav-mobi .modal-dialog .modal-footer .panel-body {
+          background-color: #000;
+          border: none;
+          padding: 5px 0 0 0; }
+        .menu-nav-mobi .modal-dialog .modal-footer .panel-body a {
+          color: #fff;
+          font-family: Rajdhani, sans-serif;
+          font-size: 16px;
+          font-size: 14px;
+          text-align: -webkit-left;
+          text-align: -moz-left; }
+        .menu-nav-mobi .modal-dialog .modal-footer .panel-body .categoria-button {
+          text-align: -webkit-right;
+          text-align: -moz-right;
+          padding: 0; }
+        .menu-nav-mobi .modal-dialog .modal-footer .panel-body p {
+          border-bottom: 1px solid #fff;
+          margin: 0px 0 5px 0; }
+        .menu-nav-mobi .modal-dialog .modal-footer .panel-body p:last-child {
+          margin: 0; }
 
   .div-login {
     padding: 0;

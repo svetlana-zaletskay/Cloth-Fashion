@@ -5,9 +5,11 @@
 
 @mixin styleTexttablet {
   font-size: 11px;
-
 }
-
+@mixin title{
+  font-family: Rajdhani, sans-serif;
+  font-size: 16px;
+}
 @media (min-width: 1220px) {
   //.container {
   //  min-width: 1600px;
@@ -283,12 +285,52 @@
       }
       .modal-title {
         color: #fff;
-        font-family: Rajdhani, sans-serif;
-        font-size: 16px;
+        @include title;
         line-height: 30px;
       }
       .modal-footer {
         padding: 0;
+        .panel-group .panel{
+          border-radius: 0;
+          border: none;
+          margin: 0;
+        }
+        .panel-title a{
+          @include title;
+          text-decoration: none;
+        }
+        .panel-title .title{
+          text-align: -webkit-left;
+          text-align: -moz-left;
+        }
+        .panel-default .panel-heading{
+          border-bottom: 1px solid #dddddd;
+          background-color: #ffffff;
+        }
+        .panel-body{
+          background-color: #000;
+          border: none;
+          padding: 5px 0 0 0;
+        }
+        .panel-body a{
+          color: #fff;
+          @include title;
+          font-size: 14px;
+          text-align: -webkit-left;
+          text-align: -moz-left;
+        }
+        .panel-body .categoria-button{
+          text-align: -webkit-right;
+          text-align: -moz-right;
+          padding:0;
+        }
+        .panel-body p{
+          border-bottom: 1px solid #fff;
+          margin: 0px 0 5px 0;
+        }
+        .panel-body p:last-child{
+          margin: 0;
+        }
       }
     }
   }
