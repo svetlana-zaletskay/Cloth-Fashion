@@ -182,104 +182,98 @@
       top: 16px;
     }
   }
-  .modal {
-    top: 0;
-    background: rgba(255, 255, 255, 0.5);
-    color: #fff;
-  }
-  .modal-dialog {
-    top: 8%;
-    width: 40%;
-    .modal-content {
-      border-radius: 0;
-      padding: 0;
-      margin: 0;
-      width: 94%;
-      .modal-header {
-        background-color: #000000;
-        padding: 13px 0 8px 0;
-        border: none;
-        button {
-          color: #fff;
-          opacity: 1;
-          background-color: transparent;
-          margin: 0;
-          font-size: 28px;
-          font-weight: 100;
-          font-family: Rjdhania, sans-serif;
-          float: right;
-
-        }
-      }
-      .modal-body {
-        background-color: #000000;
-        padding: 0 15px;
-        border-top: 1px solid #000000;
-        .wrapper-header {
-          background-color: #b1b1b1;
-          text-align: -webkit-right;
-          text-align: -moz-right;
-          border: 1px;
-          padding: 9px 0;
-          .style-placeholder {
-            font-family: Rajdhani, sans-serif;
-            font-size: 16px;
-            width: 63%;
-            line-height: 23px;
-            border: none;
-            color: #000000;
-            padding: 10px 4px;
-            margin: 0 0 0 145px;
-
-          }
-          .search {
-            background-color: #000000;
-            border: none;
-            float: none;
-            padding: 0 5px;
-            margin: 0 8px 0 5px;
-          }
-          .fa {
-            font-size: 20px;
-            padding: 9px 8px 12px 9px;
-          }
-        }
-      }
-      .modal-title {
+  .tablet-modal-body {
+    max-width: 603px;
+    background-color: #000;
+    .modal-header {
+      background-color: #000000;
+      padding: 13px 0 8px 0;
+      border: none;
+      .title-menu {
         color: #fff;
-        font-family: Rajdhani, sans-serif;
-        font-size: 20px;
-        text-align: -webkit-center;
-        text-align: -moz-center;
+        font-family: Rjdhania, sans-serif;
       }
-      .modal-footer {
-        border: none;
-        background-color: #000000;
-        padding: 0 15px;
-      }
-      .panel-group {
-        margin-bottom: 0;
-      }
-      .panel {
-        border-radius: 0;
+      button {
+        color: #fff;
+        opacity: 1;
+        background-color: transparent;
         margin: 0;
+        font-size: 28px;
+        font-weight: 100;
+        font-family: Rjdhania, sans-serif;
+        float: right;
+
       }
-      .panel-heading {
-        background-color: #fff;
-        margin: 0 0 0 144px;
-        padding: 21px 15px 16px 15px;
-        .title {
+    }
+    .modal-body {
+      background-color: #000000;
+      padding: 0 15px;
+      border-top: 1px solid #000000;
+      .wrapper-header {
+        background-color: #b1b1b1;
+        text-align: -webkit-right;
+        text-align: -moz-right;
+        border: 1px;
+        padding: 9px 0;
+        .style-placeholder {
           font-family: Rajdhani, sans-serif;
-          font-size: 21px;
-          font-weight: 600;
-          float: left;
+          font-size: 16px;
+          width: 63%;
+          line-height: 23px;
+          border: none;
+          color: #000000;
+          padding: 10px 4px;
+          margin: 0 0 0 145px;
+
         }
-        .button-acordion {
-          font-size: 27px;
-          text-decoration: none;
+        .search {
+          background-color: #000000;
+          border: none;
+          float: none;
+          padding: 0 5px;
+          margin: 0 8px 0 5px;
+        }
+        .fa {
+          font-size: 20px;
+          padding: 9px 8px 12px 9px;
         }
       }
     }
+    .modal-title {
+      color: #fff;
+      font-family: Rajdhani, sans-serif;
+      font-size: 20px;
+      text-align: -webkit-center;
+      text-align: -moz-center;
+    }
+    .modal-footer {
+      border: none;
+      background-color: #000000;
+      padding: 0 15px;
+    }
+    .panel-group {
+      margin-bottom: 0;
+    }
+    .panel {
+      border-radius: 0;
+      margin: 0;
+    }
+    .panel-heading {
+      background-color: #fff;
+      margin: 0 0 0 144px;
+      padding: 21px 15px 16px 15px;
+      .title {
+        font-family: Rajdhani, sans-serif;
+        font-size: 21px;
+        font-weight: 600;
+        float: left;
+      }
+      .button-acordion {
+        font-size: 27px;
+        text-decoration: none;
+      }
+    }
+
     .panel-body {
       background-color: #000000;
       padding: 0;
@@ -289,14 +283,13 @@
         width: 100%;
         padding: 10px 0 10px 160px;
         margin: 0;
-
         .categoria {
           @include modalTitle;
           text-decoration: none;
           float: left;
         }
       }
-      .fa{
+      .fa {
         padding: 0 17px 0 0;
       }
     }
@@ -304,9 +297,11 @@
       font-size: 20px;
     }
   }
+
   .nav-basket, .nav-login {
     padding: 0;
   }
+
   .nav-h, .nav-login {
     text-align: -webkit-center;
     text-align: -moz-center;
@@ -323,8 +318,10 @@
       letter-spacing: 2px;
     }
   }
+
   .nav-basket img {
     vertical-align: text-top;
   }
+
 }
 

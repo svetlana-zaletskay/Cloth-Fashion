@@ -218,6 +218,31 @@
         width: 36px;
         height: 26px;
       }
+      .tablet-modal{
+        .modal-body{
+          padding: 0;
+        }
+        .tablet-modal-body{
+          position: absolute;
+          top:0;
+          max-width: 280px;
+        }
+        .wrapper-header{
+          min-height: 40px;
+          background-color: #b1b1b1;
+
+        }
+        .modal-header{
+          max-height: 38px;
+          background-color: #000000;
+          .modal-title{
+            display: inline-block;
+          }
+        }
+        .modal-footer{
+          max-height: 40px;
+        }
+      }
     }
   }
 }

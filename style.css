@@ -141,105 +141,99 @@ html {
       top: 9px; }
     .menu-nav-desk .bg-nav .btn-primary .icon-3 {
       top: 16px; }
-  .menu-nav-desk .bg-nav .modal {
-    top: 0;
-    background: rgba(255, 255, 255, 0.5);
-    color: #fff; }
-  .menu-nav-desk .bg-nav .modal-dialog {
-    top: 8%;
-    width: 40%; }
-    .menu-nav-desk .bg-nav .modal-dialog .modal-content {
-      border-radius: 0;
-      padding: 0;
-      margin: 0;
-      width: 94%; }
-      .menu-nav-desk .bg-nav .modal-dialog .modal-content .modal-header {
-        background-color: #000000;
-        padding: 13px 0 8px 0;
-        border: none; }
-        .menu-nav-desk .bg-nav .modal-dialog .modal-content .modal-header button {
-          color: #fff;
-          opacity: 1;
-          background-color: transparent;
-          margin: 0;
-          font-size: 28px;
-          font-weight: 100;
-          font-family: Rjdhania, sans-serif;
-          float: right; }
-      .menu-nav-desk .bg-nav .modal-dialog .modal-content .modal-body {
-        background-color: #000000;
-        padding: 0 15px;
-        border-top: 1px solid #000000; }
-        .menu-nav-desk .bg-nav .modal-dialog .modal-content .modal-body .wrapper-header {
-          background-color: #b1b1b1;
-          text-align: -webkit-right;
-          text-align: -moz-right;
-          border: 1px;
-          padding: 9px 0; }
-          .menu-nav-desk .bg-nav .modal-dialog .modal-content .modal-body .wrapper-header .style-placeholder {
-            font-family: Rajdhani, sans-serif;
-            font-size: 16px;
-            width: 63%;
-            line-height: 23px;
-            border: none;
-            color: #000000;
-            padding: 10px 4px;
-            margin: 0 0 0 145px; }
-          .menu-nav-desk .bg-nav .modal-dialog .modal-content .modal-body .wrapper-header .search {
-            background-color: #000000;
-            border: none;
-            float: none;
-            padding: 0 5px;
-            margin: 0 8px 0 5px; }
-          .menu-nav-desk .bg-nav .modal-dialog .modal-content .modal-body .wrapper-header .fa {
-            font-size: 20px;
-            padding: 9px 8px 12px 9px; }
-      .menu-nav-desk .bg-nav .modal-dialog .modal-content .modal-title {
+  .menu-nav-desk .bg-nav .tablet-modal-body {
+    max-width: 603px;
+    background-color: #000; }
+    .menu-nav-desk .bg-nav .tablet-modal-body .modal-header {
+      background-color: #000000;
+      padding: 13px 0 8px 0;
+      border: none; }
+      .menu-nav-desk .bg-nav .tablet-modal-body .modal-header .title-menu {
         color: #fff;
-        font-family: Rajdhani, sans-serif;
-        font-size: 20px;
-        text-align: -webkit-center;
-        text-align: -moz-center; }
-      .menu-nav-desk .bg-nav .modal-dialog .modal-content .modal-footer {
-        border: none;
-        background-color: #000000;
-        padding: 0 15px; }
-      .menu-nav-desk .bg-nav .modal-dialog .modal-content .panel-group {
-        margin-bottom: 0; }
-      .menu-nav-desk .bg-nav .modal-dialog .modal-content .panel {
-        border-radius: 0;
-        margin: 0; }
-      .menu-nav-desk .bg-nav .modal-dialog .modal-content .panel-heading {
-        background-color: #fff;
-        margin: 0 0 0 144px;
-        padding: 21px 15px 16px 15px; }
-        .menu-nav-desk .bg-nav .modal-dialog .modal-content .panel-heading .title {
+        font-family: Rjdhania, sans-serif; }
+      .menu-nav-desk .bg-nav .tablet-modal-body .modal-header button {
+        color: #fff;
+        opacity: 1;
+        background-color: transparent;
+        margin: 0;
+        font-size: 28px;
+        font-weight: 100;
+        font-family: Rjdhania, sans-serif;
+        float: right; }
+    .menu-nav-desk .bg-nav .tablet-modal-body .modal-body {
+      background-color: #000000;
+      padding: 0 15px;
+      border-top: 1px solid #000000; }
+      .menu-nav-desk .bg-nav .tablet-modal-body .modal-body .wrapper-header {
+        background-color: #b1b1b1;
+        text-align: -webkit-right;
+        text-align: -moz-right;
+        border: 1px;
+        padding: 9px 0; }
+        .menu-nav-desk .bg-nav .tablet-modal-body .modal-body .wrapper-header .style-placeholder {
           font-family: Rajdhani, sans-serif;
-          font-size: 21px;
-          font-weight: 600;
-          float: left; }
-        .menu-nav-desk .bg-nav .modal-dialog .modal-content .panel-heading .button-acordion {
-          font-size: 27px;
-          text-decoration: none; }
-    .menu-nav-desk .bg-nav .modal-dialog .panel-body {
+          font-size: 16px;
+          width: 63%;
+          line-height: 23px;
+          border: none;
+          color: #000000;
+          padding: 10px 4px;
+          margin: 0 0 0 145px; }
+        .menu-nav-desk .bg-nav .tablet-modal-body .modal-body .wrapper-header .search {
+          background-color: #000000;
+          border: none;
+          float: none;
+          padding: 0 5px;
+          margin: 0 8px 0 5px; }
+        .menu-nav-desk .bg-nav .tablet-modal-body .modal-body .wrapper-header .fa {
+          font-size: 20px;
+          padding: 9px 8px 12px 9px; }
+    .menu-nav-desk .bg-nav .tablet-modal-body .modal-title {
+      color: #fff;
+      font-family: Rajdhani, sans-serif;
+      font-size: 20px;
+      text-align: -webkit-center;
+      text-align: -moz-center; }
+    .menu-nav-desk .bg-nav .tablet-modal-body .modal-footer {
+      border: none;
+      background-color: #000000;
+      padding: 0 15px; }
+    .menu-nav-desk .bg-nav .tablet-modal-body .panel-group {
+      margin-bottom: 0; }
+    .menu-nav-desk .bg-nav .tablet-modal-body .panel {
+      border-radius: 0;
+      margin: 0; }
+    .menu-nav-desk .bg-nav .tablet-modal-body .panel-heading {
+      background-color: #fff;
+      margin: 0 0 0 144px;
+      padding: 21px 15px 16px 15px; }
+      .menu-nav-desk .bg-nav .tablet-modal-body .panel-heading .title {
+        font-family: Rajdhani, sans-serif;
+        font-size: 21px;
+        font-weight: 600;
+        float: left; }
+      .menu-nav-desk .bg-nav .tablet-modal-body .panel-heading .button-acordion {
+        font-size: 27px;
+        text-decoration: none; }
+    .menu-nav-desk .bg-nav .tablet-modal-body .panel-body {
       background-color: #000000;
       padding: 0; }
-      .menu-nav-desk .bg-nav .modal-dialog .panel-body p {
+      .menu-nav-desk .bg-nav .tablet-modal-body .panel-body p {
         border-bottom: 1px solid #fff;
         float: left;
         width: 100%;
         padding: 10px 0 10px 160px;
         margin: 0; }
-        .menu-nav-desk .bg-nav .modal-dialog .panel-body p .categoria {
+        .menu-nav-desk .bg-nav .tablet-modal-body .panel-body p .categoria {
           color: #fff;
           font-family: Rajdhani, sans-serif;
           font-size: 20px;
           background-color: #000000;
           text-decoration: none;
           float: left; }
-      .menu-nav-desk .bg-nav .modal-dialog .panel-body .fa {
+      .menu-nav-desk .bg-nav .tablet-modal-body .panel-body .fa {
         padding: 0 17px 0 0; }
-    .menu-nav-desk .bg-nav .modal-dialog .panel-body i:before {
+    .menu-nav-desk .bg-nav .tablet-modal-body .panel-body i:before {
       font-size: 20px; }
   .menu-nav-desk .bg-nav .nav-basket, .menu-nav-desk .bg-nav .nav-login {
     padding: 0; }
@@ -408,7 +402,23 @@ html {
         padding: 0; }
       .menu-nav-desk .bg-nav .nav-basket img {
         width: 36px;
-        height: 26px; } }
+        height: 26px; }
+      .menu-nav-desk .bg-nav .tablet-modal .modal-body {
+        padding: 0; }
+      .menu-nav-desk .bg-nav .tablet-modal .tablet-modal-body {
+        position: absolute;
+        top: 0;
+        max-width: 280px; }
+      .menu-nav-desk .bg-nav .tablet-modal .wrapper-header {
+        min-height: 40px;
+        background-color: #b1b1b1; }
+      .menu-nav-desk .bg-nav .tablet-modal .modal-header {
+        max-height: 38px;
+        background-color: #000000; }
+        .menu-nav-desk .bg-nav .tablet-modal .modal-header .modal-title {
+          display: inline-block; }
+      .menu-nav-desk .bg-nav .tablet-modal .modal-footer {
+        max-height: 40px; } }
 @media (min-width: 320px) and (max-width: 767px) {
   .menu-nav-mobi {
     display: block;
