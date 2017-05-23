@@ -1,0 +1,65 @@
+.text-slick{
+  text-align: -webkit-center;
+  text-align: -moz-center;
+  padding: 84px 0 26px 0;
+}
+.slick-men {
+  float: none;
+  .block-slick{
+    margin: 0 197px;
+  }
+  .products {
+    height: 333px;
+    width: 187px;
+    margin: 0 -7.5px;
+  }
+  .price{
+    margin: 7px 59px 0 59px;
+    font-family: Rajdhani, sans-serif;
+    font-size: 15px;
+    color: #000000;
+  }
+  .hover-comprar{
+    display: none;
+  }
+  .hover-comprar:hover{
+    display: block!important;
+    color: #ffffff;
+    background-color: #4f4f4e;
+    position: absolute;
+    bottom: 23px;
+    width: 100%;
+    left: 9px;
+    text-align: -webkit-center;
+    font-family: Rajdhani, sans-serif;
+    font-size: 19px;
+    font-weight: 600;
+    letter-spacing: 2px;
+
+  }
+  .product-1 {
+    background: url('images/product-1.png') no-repeat;
+  }
+  .product-2 {
+    background: url('images/product-2.png') no-repeat;
+  }
+  .product-3 {
+    background: url('images/product-3.png') no-repeat;
+    position: relative;
+  }
+  .product-3:hover{
+    background: url('images/droduct-over.png') no-repeat;
+    height: 333px;
+    width: 187px;
+    margin: 0 -7.5px;
+  }
+  .product-4 {
+    background: url('images/product-4.png') no-repeat;
+  }
+  .product-5 {
+    background: url('images/product-5.png') no-repeat;
+  }
+  .product-6 {
+    background: url('images/product-6.png') no-repeat;
+  }
+}
