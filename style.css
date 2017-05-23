@@ -254,6 +254,72 @@ html {
   .menu-nav-desk .bg-nav .nav-basket img {
     vertical-align: text-top; }
 
+main .text-slick {
+  text-align: -webkit-center;
+  text-align: -moz-center;
+  padding: 81px 0 19px 0; }
+  main .text-slick .style-header {
+    font-family: Rajdhani, sans-serif;
+    font-size: 23px;
+    color: #000000;
+    letter-spacing: 1px; }
+  main .text-slick .block-h:before {
+    content: url("images/arrow-LF.png");
+    margin: 0 25px 0 0; }
+  main .text-slick .block-h:after {
+    content: url("images/arrowRT.png");
+    margin: 0 0 0 23px; }
+main .slick-men {
+  float: none;
+  margin: 0 197px;
+  height: 1000px; }
+  main .slick-men button {
+    top: 15%; }
+  main .slick-men button:before {
+    color: grey;
+    background-color: #fff;
+    font-size: 30px; }
+  main .slick-men .products {
+    height: 333px;
+    width: 185px; }
+  main .slick-men .price {
+    margin: 7px 67px 0 67px;
+    font-family: Rajdhani, sans-serif;
+    font-size: 15px;
+    color: #000000; }
+  main .slick-men .hover-comprar {
+    display: none; }
+  main .slick-men .hover-comprar:hover {
+    display: block !important;
+    color: #ffffff;
+    background-color: #4f4f4e;
+    position: absolute;
+    bottom: 23px;
+    width: 100%;
+    left: 9px;
+    text-align: -webkit-center;
+    font-family: Rajdhani, sans-serif;
+    font-size: 19px;
+    font-weight: 600;
+    letter-spacing: 2px; }
+  main .slick-men .product-1 {
+    background: url("images/product-1.png") no-repeat; }
+  main .slick-men .product-2 {
+    background: url("images/product-2.png") no-repeat; }
+  main .slick-men .product-3 {
+    background: url("images/product-3.png") no-repeat;
+    position: relative; }
+  main .slick-men .product-3:hover {
+    background: url("images/droduct-over.png") no-repeat;
+    height: 333px;
+    width: 187px; }
+  main .slick-men .product-4 {
+    background: url("images/product-4.png") no-repeat; }
+  main .slick-men .product-5 {
+    background: url("images/product-5.png") no-repeat; }
+  main .slick-men .product-6 {
+    background: url("images/product-6.png") no-repeat; }
+
 @media (min-width: 1220px) {
   .menu-nav-mobi {
     display: none !important; }
@@ -262,7 +328,15 @@ html {
     display: block; }
 
   .tablet-modal-body .modal-footer {
-    display: none; } }
+    display: none; }
+
+  main .slick-men {
+    margin: 0 92px; }
+    main .slick-men .products {
+      width: 170px;
+      height: 299px;
+      background-size: 103% 99%;
+      background-position: 100% 100%; } }
 @media (min-width: 992px) and (max-width: 1200px) {
   .menu-nav-mobi {
     display: none !important; }
@@ -275,7 +349,15 @@ html {
     min-width: 768px;
     background-size: 163% 89%;
     background-position: -247px -4px;
-    background-repeat: no-repeat; } }
+    background-repeat: no-repeat; }
+
+  main .slick-men {
+    margin: 0 100px; }
+    main .slick-men .products {
+      width: 144px;
+      height: 202px;
+      background-position: 100% 133%;
+      background-size: 90% 103%; } }
 @media (min-width: 768px) and (max-width: 991px) {
   .menu-nav-mobi {
     display: none !important; }
@@ -336,7 +418,8 @@ html {
     display: block; }
     .menu-nav-desk .bg-nav {
       background-color: #000000;
-      position: relative; }
+      position: relative;
+      height: 38px; }
       .menu-nav-desk .bg-nav .btn-primary {
         text-align: -webkit-center;
         text-align: -moz-center;
@@ -442,7 +525,44 @@ html {
           padding: 0; }
         .menu-nav-desk .bg-nav .tablet-modal-body .nav-basket img {
           width: 36px;
-          height: 26px; } }
+          height: 26px; }
+
+  main .text-slick {
+    padding: 62px 0 15px 0; }
+    main .text-slick .text-imgTablet {
+      display: block; }
+    main .text-slick .text-imgDesk {
+      display: none; }
+    main .text-slick .style-header {
+      font-size: 19px; }
+  main .block-h:before {
+    content: url("images/arrow-mobiLT.png");
+    margin: 0 20px 0 0; }
+  main .block-h:after {
+    content: url("images/arrow-mobiRT.png");
+    margin: 0 0 0 19px; }
+  main .slick-men {
+    margin: 0; }
+    main .slick-men .products {
+      height: 277px;
+      width: 154px;
+      background-size: 100% 100%;
+      background-position: 100% 100%; }
+    main .slick-men .hover-comprar {
+      display: none; }
+    main .slick-men .hover-comprar:hover {
+      display: block !important;
+      color: #ffffff;
+      background-color: #4f4f4e;
+      position: absolute;
+      bottom: 23px;
+      width: 100%;
+      left: 9px;
+      text-align: -webkit-center;
+      font-family: Rajdhani, sans-serif;
+      font-size: 19px;
+      font-weight: 600;
+      letter-spacing: 2px; } }
 @media (min-width: 320px) and (max-width: 767px) {
   .menu-nav-mobi {
     display: block;
@@ -623,59 +743,34 @@ html {
       height: 2px;
       position: absolute;
       top: 28%;
-      left: -18%; } }
-.text-slick {
-  text-align: -webkit-center;
-  text-align: -moz-center;
-  padding: 84px 0 26px 0; }
+      left: -18%; }
 
-.slick-men {
-  float: none; }
-  .slick-men .block-slick {
-    margin: 0 197px; }
-  .slick-men .products {
-    height: 333px;
-    width: 187px;
-    margin: 0 -7.5px; }
-  .slick-men .price {
-    margin: 7px 59px 0 59px;
-    font-family: Rajdhani, sans-serif;
-    font-size: 15px;
-    color: #000000; }
-  .slick-men .hover-comprar {
-    display: none; }
-  .slick-men .hover-comprar:hover {
-    display: block !important;
-    color: #ffffff;
-    background-color: #4f4f4e;
-    position: absolute;
-    bottom: 23px;
-    width: 100%;
-    left: 9px;
-    text-align: -webkit-center;
-    font-family: Rajdhani, sans-serif;
-    font-size: 19px;
-    font-weight: 600;
-    letter-spacing: 2px; }
-  .slick-men .product-1 {
-    background: url("images/product-1.png") no-repeat; }
-  .slick-men .product-2 {
-    background: url("images/product-2.png") no-repeat; }
-  .slick-men .product-3 {
-    background: url("images/product-3.png") no-repeat;
-    position: relative; }
-  .slick-men .product-3:hover {
-    background: url("images/droduct-over.png") no-repeat;
-    height: 333px;
-    width: 187px;
-    margin: 0 -7.5px; }
-  .slick-men .product-4 {
-    background: url("images/product-4.png") no-repeat; }
-  .slick-men .product-5 {
-    background: url("images/product-5.png") no-repeat; }
-  .slick-men .product-6 {
-    background: url("images/product-6.png") no-repeat; }
-
+  main .text-slick {
+    padding: 0;
+    margin: -18px 0 0 0; }
+    main .text-slick img {
+      width: 100%; }
+    main .text-slick .style-header {
+      font-size: 17px; }
+    main .text-slick .block-h:before {
+      content: url("images/arrow-mobiLT.png");
+      margin: 0px 8px 0 0; }
+    main .text-slick .block-h:after {
+      content: url("images/arrow-mobiRT.png");
+      margin: 0 0px 0 9px; }
+  main .slick-men {
+    margin: 22px 0 0 0; }
+    main .slick-men .products {
+      width: 159px;
+      height: 280px;
+      padding: 0;
+      background-size: 100% 100%;
+      background-position: -3% 61%; }
+    main .slick-men .product-1 {
+      background-size: 100% 100%;
+      background-position: -3% 61%; }
+    main .slick-men .price {
+      margin: 0 53px 0 51px; } }
 .ad-menu *:focus, .ad-menu *::before, .ad-menu *::after {
   padding: 0;
   margin: 0;
