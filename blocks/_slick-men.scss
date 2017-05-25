@@ -22,66 +22,89 @@ main {
   .slick-men {
     float: none;
     margin: 0 197px;
-    height: 1000px;
-    button {
-      top: 15%;
+    .slick-prev,.slick-next{
+      top: 47%;
     }
-    button:before {
-      color: grey;
-      background-color: #fff;
-      font-size: 30px;
+    .slick-next{
+      right: -1%;
     }
-    .products {
-      height: 333px;
-      width: 185px;
+    .slick-prev{
+      left: -1%;
     }
-    .price {
-      margin: 7px 67px 0 67px;
-      font-family: Rajdhani, sans-serif;
-      font-size: 15px;
-      color: #000000;
+    .slick-prev:before{
+      content: url('images/arrow-grey-LF.png');
+      //height: 20px;
     }
-    .hover-comprar {
-      display: none;
+    .slick-next:before{
+      content: url('images/arrow-grey-RT.png');
     }
-    .hover-comprar:hover {
-      display: block !important;
-      color: #ffffff;
-      background-color: #4f4f4e;
-      position: absolute;
-      bottom: 23px;
-      width: 100%;
-      left: 9px;
+    .block-products {
       text-align: -webkit-center;
-      font-family: Rajdhani, sans-serif;
-      font-size: 19px;
-      font-weight: 600;
-      letter-spacing: 2px;
+      text-align: -moz-center;
+      margin: 0;
+      padding: 0 7.5px;
+      .products {
+        height: 333px;
+        width: 100%;
+      }
+      .price {
+        //margin: 7px 67px 0 67px;
+        font-family: Rajdhani, sans-serif;
+        font-size: 15px;
+        color: #000000;
+        margin: 0;
+        width: 100%;
+      }
+      .price-2{
+        display: none;
+      }
+      .hover-comprar {
+        display: none;
+      }
+      .hover-comprar:hover {
+        display: block !important;
+        color: #ffffff;
+        background-color: #4f4f4e;
+        position: absolute;
+        bottom: 23px;
+        width: 100%;
+        left: 9px;
+        text-align: -webkit-center;
+        font-family: Rajdhani, sans-serif;
+        font-size: 19px;
+        font-weight: 600;
+        letter-spacing: 2px;
 
+      }
+      .product-1 {
+        background: url('images/product-1.png') no-repeat;
+      }
+      .product-2 {
+        background: url('images/product-2.png') no-repeat;
+      }
+      .product-3 {
+        background: url('images/product-3.png') no-repeat;
+        position: relative;
+      }
+      .product-3:hover {
+        background: url('images/droduct-over.png') no-repeat;
+        height: 333px;
+        width: 100%;
+      }
+      .product-4 {
+        background: url('images/product-4.png') no-repeat;
+      }
+      .product-5 {
+        background: url('images/product-5.png') no-repeat;
+      }
+      .product-6 {
+        background: url('images/product-6.png') no-repeat;
+      }
     }
-    .product-1 {
-      background: url('images/product-1.png') no-repeat;
-    }
-    .product-2 {
-      background: url('images/product-2.png') no-repeat;
-    }
-    .product-3 {
-      background: url('images/product-3.png') no-repeat;
-      position: relative;
-    }
-    .product-3:hover {
-      background: url('images/droduct-over.png') no-repeat;
-      height: 333px;
-      width: 187px;
-    }
-    .product-4 {
-      background: url('images/product-4.png') no-repeat;
-    }
-    .product-5 {
-      background: url('images/product-5.png') no-repeat;
-    }
-    .product-6 {
-      background: url('images/product-6.png') no-repeat;
-    }
+  }
+  .divisioria{
+    text-align: -webkit-center;
+    text-align: -moz-center;
+    margin: 67px 0 38px 0;
   }
 }

@@ -1,12 +1,12 @@
-$(document).ready(function(){
+$(document).ready(function () {
     $('.slick-header').slick({
         dots: true,
         infinite: true,
         speed: 300,
         slidesToShow: 1
+    });
 });
-});
-$(document).ready(function(){
+$(document).ready(function () {
     $('.slick-banner').slick({
         dots: true,
         infinite: true,
@@ -17,30 +17,53 @@ $(document).ready(function(){
 
 $('#slickMenBlock').slick({
     slidesToShow: 6,
+    slidesToScroll: 6,
+    arrows: true,
     responsive: [
+
         {
-            breakpoint: 1400,
+            breakpoint: 1366,
             settings: {
-                arrows: false,
-                slidesToShow: 6
+                arrows: true,
+                slidesToShow: 6,
+                slidesToScroll: 1
             }
         },
         {
-            breakpoint: 991,
+            breakpoint: 1025,
+            settings: {
+                arrows: true,
+                slidesToShow: 6,
+                slidesToScroll: 1
+            }
+        },
+        {
+            breakpoint: 992,
             settings: {
                 arrows: false,
+                slidesToShow: 4,
+                slidesToScroll: 1
+            }
+        },
+        {
+            breakpoint: 769,
+            settings: {
+                arrows: true,
                 centerMode: true,
-                centerPadding: '56px',
-                slidesToShow: 4
+                centerPadding: '50px',
+                slidesToShow: 4,
+                slidesToScroll: 1
             }
         },
+
         {
             breakpoint: 480,
             settings: {
                 arrows: false,
+                slidesToShow: 1,
+                slidesToScroll: 1,
                 centerMode: true,
-                centerPadding: '65px',
-                slidesToShow: 1
+                centerPadding: '75px'
             }
         }
     ]

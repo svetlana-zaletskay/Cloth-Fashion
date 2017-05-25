@@ -150,7 +150,15 @@
     }
   }
 }
-
+.menu-nav-mobi {
+  display: none !important;
+}
+.menu-nav-desk {
+  display: block;
+}
+.tablet-modal-body .modal-footer{
+  display: none;
+}
 .menu-nav-desk {
   padding: 0;
 }
