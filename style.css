@@ -307,20 +307,22 @@ main .slick-men {
     main .slick-men .block-products .price-2 {
       display: none; }
     main .slick-men .block-products .hover-comprar {
-      display: none; }
-    main .slick-men .block-products .hover-comprar:hover {
-      display: block !important;
-      color: #ffffff;
-      background-color: #4f4f4e;
-      position: absolute;
-      bottom: 23px;
-      width: 100%;
-      left: 9px;
-      text-align: -webkit-center;
-      font-family: Rajdhani, sans-serif;
-      font-size: 19px;
-      font-weight: 600;
-      letter-spacing: 2px; }
+      height: 100%; }
+      main .slick-men .block-products .hover-comprar .hover-compare-content {
+        display: none; }
+      main .slick-men .block-products .hover-comprar .hover-comprar:hover .hover-compare-content {
+        display: block;
+        color: #ffffff;
+        background-color: #4f4f4e;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        left: 0;
+        text-align: -webkit-center;
+        font-family: Rajdhani, sans-serif;
+        font-size: 19px;
+        font-weight: 600;
+        letter-spacing: 2px; }
     main .slick-men .block-products .product-1 {
       background: url("images/product-1.png") no-repeat; }
     main .slick-men .block-products .product-2 {
@@ -350,9 +352,134 @@ main .divisioria {
     padding-left: 0;
     padding-right: 0;
     margin-bottom: 25px; }
-  .collection img {
+    .collection .coll-row .col {
+      position: relative; }
+      .collection .coll-row .col img {
+        width: 100%;
+        height: 445px; }
+      .collection .coll-row .col .link-bg {
+        font-family: Rajdhani, sans-serif;
+        font-size: 34px;
+        font-weight: 600;
+        color: #ffffff;
+        position: absolute;
+        top: 44.5%;
+        left: 35.5%;
+        letter-spacing: 6px;
+        text-shadow: 0px 3px black; }
+      .collection .coll-row .col .block-front {
+        z-index: 1001;
+        background-color: #000000;
+        transition: all 0.4s ease-in-out 0s;
+        opacity: 0;
+        color: white;
+        cursor: pointer;
+        position: absolute;
+        width: 95%;
+        height: 100%;
+        top: 0;
+        padding: 0 15px; }
+        .collection .coll-row .col .block-front .block-link {
+          font-family: Rajdhani, sans-serif;
+          font-size: 34px;
+          font-weight: 600;
+          color: #ffffff;
+          position: absolute;
+          top: 44.5%;
+          left: 35%;
+          letter-spacing: 6px;
+          text-decoration: none; }
+      .collection .coll-row .col .block-front:hover {
+        opacity: 0.8; }
+      .collection .coll-row .col .block-front-3 {
+        width: 97%; }
+      .collection .coll-row .col .block-front-4 {
+        width: 93%; }
+      .collection .coll-row .col .block-front-6 {
+        width: 96.5%; }
+
+main .gallery-1, main .gallery-2 {
+  text-align: -webkit-center;
+  text-align: -moz-center;
+  margin: 0 168px; }
+main .block-h {
+  text-align: -webkit-center;
+  text-align: -moz-center;
+  padding: 46px 0 30px 0; }
+main .block-h:before {
+  content: url("images/arrow-LF.png");
+  margin: 0 25px 0 0; }
+main .block-h:after {
+  content: url("images/arrowRT.png");
+  margin: 0 0 0 23px; }
+main .style-header {
+  font-family: Rajdhani, sans-serif;
+  font-size: 23px;
+  color: #000000;
+  letter-spacing: 1px; }
+main .photos .col-photo {
+  display: inline-block;
+  margin: 0 7.5px 0 8.5px;
+  width: 18%;
+  position: relative; }
+  main .photos .col-photo .block-front {
+    z-index: 1001;
+    background-color: #000000;
+    transition: all 0.4s ease-in-out 0s;
+    opacity: 0;
+    cursor: pointer;
+    position: absolute;
     width: 100%;
-    height: 445px; }
+    height: 100%;
+    top: 0;
+    padding: 0 15px; }
+  main .photos .col-photo .block-front:hover {
+    opacity: 0.5; }
+  main .photos .col-photo .block-front:hover .block-likes .fa-heart:before {
+    color: #ffffff;
+    top: 34%;
+    left: 44%;
+    position: absolute;
+    font-size: 45px; }
+  main .photos .col-photo .block-front:hover .block-likes .text-likes {
+    color: #ffffff;
+    font-size: 20px;
+    font-family: Rajdhani, sans-serif;
+    position: absolute;
+    top: 58%;
+    left: 38%; }
+main .photos .col-photo-last {
+  display: inline-block;
+  margin: 0 7.5px;
+  width: 23%; }
+main .photos img {
+  width: 100%; }
+
+footer {
+  margin: 200px; }
+  footer .btn-arrow {
+    padding: 18px 29px 18px 33px;
+    position: relative;
+    background: #000000;
+    left: 50px; }
+  footer .btn-arrow span {
+    position: relative;
+    z-index: 1;
+    color: #ffffff;
+    font-family: Rajdhani, sans-serif;
+    font-size: 20px;
+    letter-spacing: 3px; }
+  footer .btn-arrow:after {
+    content: '';
+    position: absolute;
+    right: -20px;
+    top: 50%;
+    background: #000000;
+    width: 40px;
+    height: 40px;
+    margin-top: -20px;
+    z-index: -1;
+    transform: rotate(45deg); }
 
 @media (min-width: 1220px) and (max-width: 1367px) {
   .menu-nav-mobi {
@@ -383,7 +510,29 @@ main .divisioria {
         width: 100%;
         height: 280px;
         background-size: contain;
-        background-position: 100% 100%; } }
+        background-position: 100% 100%; }
+  main .divisioria {
+    margin: 20px 0 29px 0; }
+  main .collection {
+    margin: 0 20px; }
+    main .collection .coll-row .col .img {
+      height: 400px; }
+    main .collection .coll-row .col .block-front-3 {
+      width: 97%; }
+    main .collection .coll-row .col .block-front-4 {
+      width: 92%; }
+    main .collection .coll-row .col .block-front-5 {
+      width: 92%; }
+    main .collection .coll-row .col .block-front-6 {
+      width: 97%; }
+  main .gallery-1 {
+    margin: 0; }
+  main .gallery-2 {
+    margin: 0 19px; }
+  main .photos .col-photo {
+    margin: 0 5.5px 0 5.5px; }
+  main .photos .col-photo-last {
+    margin: 0 8px; } }
 @media (min-width: 992px) and (max-width: 1200px) {
   .menu-nav-mobi {
     display: none !important; }
@@ -417,8 +566,31 @@ main .divisioria {
         background-position: 100% 100%;
         background-size: contain; }
       main .slick-men .block-products .price-2 {
-        display: none; } }
+        display: none; }
+  main .divisioria {
+    margin: 20px 0 29px 0; }
+  main .collection {
+    margin: 0 20px; }
+    main .collection .coll-row .col .img {
+      height: 315px; }
+    main .collection .coll-row .col .block-front-3 {
+      width: 96%; }
+    main .collection .coll-row .col .block-front-4 {
+      width: 90%; }
+    main .collection .coll-row .col .block-front-6 {
+      width: 95%; }
+  main .gallery-1 {
+    margin: 0 18px; }
+  main .gallery-2 {
+    margin: 0 8px; }
+  main .photos .col-photo {
+    margin: 0 5.5px; }
+  main .photos .col-photo-last {
+    margin: 0 2px; } }
 @media (min-width: 768px) and (max-width: 991px) {
+  .container-fluid {
+    overflow: hidden; }
+
   .menu-nav-mobi {
     display: none !important; }
 
@@ -605,49 +777,86 @@ main .divisioria {
     margin: 0; }
     main .slick-men .block-products:not(.slick-active) {
       opacity: 0.2; }
-    main .slick-men .block-products .products {
-      height: 277px;
-      width: 100%;
-      background-size: 100% 100%;
-      background-position: 100% 100%; }
-    main .slick-men .block-products .product-3:hover {
-      width: 100%;
-      height: 277px;
-      background-position: 100% 100%;
-      background-size: cover; }
-    main .slick-men .block-products .price {
-      width: 100%;
-      color: #888888;
-      display: block; }
-    main .slick-men .block-products .price:not(.price-not) {
-      text-decoration: line-through; }
-    main .slick-men .block-products .price-2 {
-      font-family: Rajdhani, sans-serif;
-      font-size: 16px;
-      font-size: 17px;
-      color: #000000;
-      font-weight: 800;
-      margin: -6px 0 0 0;
-      display: block;
-      letter-spacing: 1px; }
-    main .slick-men .block-products .hover-comprar {
-      display: none; }
-    main .slick-men .block-products .hover-comprar:hover {
-      display: block !important;
-      color: #ffffff;
-      background-color: #4f4f4e;
-      position: absolute;
-      bottom: 23px;
-      width: 100%;
-      left: 9px;
-      text-align: -webkit-center;
-      font-family: Rajdhani, sans-serif;
-      font-size: 19px;
-      font-weight: 600;
-      letter-spacing: 2px; }
+    main .slick-men .block-products {
+      position: relative; }
+      main .slick-men .block-products .products {
+        height: 277px;
+        width: 100%;
+        background-size: 100% 100%;
+        background-position: 100% 100%; }
+      main .slick-men .block-products .product-3:hover {
+        width: 100%;
+        height: 277px;
+        background-position: 100% 100%;
+        background-size: cover; }
+      main .slick-men .block-products .price {
+        width: 100%;
+        color: #888888;
+        display: block; }
+      main .slick-men .block-products .price:not(.price-not) {
+        text-decoration: line-through; }
+      main .slick-men .block-products .price-2 {
+        font-family: Rajdhani, sans-serif;
+        font-size: 16px;
+        font-size: 17px;
+        color: #000000;
+        font-weight: 800;
+        margin: -6px 0 0 0;
+        display: block;
+        letter-spacing: 1px; }
+      main .slick-men .block-products .hover-compare-content {
+        display: none; }
+      main .slick-men .block-products .hover-comprar:hover .hover-compare-content {
+        display: block;
+        color: #ffffff;
+        background-color: #4f4f4e;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        left: 0;
+        text-align: -webkit-center;
+        font-family: Rajdhani, sans-serif;
+        font-size: 19px;
+        font-weight: 600;
+        letter-spacing: 2px; }
     main .slick-men .block-products:hover {
-      outline: none; } }
+      outline: none; }
+  main .divisioria {
+    margin: 16px 0 26px 0; }
+    main .divisioria img {
+      width: 18%; }
+  main .collection {
+    margin: 0 9px; }
+    main .collection .coll-row {
+      margin-bottom: 15px; }
+      main .collection .coll-row .col {
+        padding-left: 10px;
+        padding-right: 6px; }
+        main .collection .coll-row .col .img {
+          height: 263px; }
+        main .collection .coll-row .col .link-bg {
+          font-size: 19px; }
+        main .collection .coll-row .col .block-front:hover {
+          display: none; }
+  main .gallery-1 {
+    margin: 0; }
+  main .gallery-2 {
+    margin: 0 9px; }
+  main .photos .col-photo {
+    margin: 0 3px; }
+  main .photos .col-photo .block-front {
+    display: none; }
+  main .photos .col-photo-last {
+    margin: 0 6px; }
+  main .style-header {
+    font-size: 18px;
+    letter-spacing: 1px; }
+  main .block-h {
+    padding: 16px 0; } }
 @media (min-width: 320px) and (max-width: 767px) {
+  .container-fluid {
+    overflow: hidden; }
+
   .menu-nav-mobi {
     display: block;
     height: 40px; }
@@ -832,10 +1041,12 @@ main .divisioria {
   main .text-slick {
     padding: 0;
     margin: -18px 0 0 0; }
-    main .text-slick img {
+    main .text-slick .img {
       width: 100%; }
     main .text-slick .style-header {
       font-size: 17px; }
+    main .text-slick .block-h {
+      padding: 16px 0 16px 0; }
     main .text-slick .block-h:before {
       content: url("images/arrow-mobiLT.png");
       margin: 0px 8px 0 0; }
@@ -881,6 +1092,84 @@ main .divisioria {
       main .slick-men .block-products .hover-comprar {
         display: none; }
     main .slick-men .slick-current:not {
-      opacity: 0.3; } }
+      opacity: 0.3; }
+  main .divisioria {
+    margin: 42px 0 32px 0; }
+    main .divisioria img {
+      width: 39%; }
+  main .collection {
+    margin: 0 0 0 0; }
+    main .collection .coll-row {
+      margin-bottom: 15px; }
+      main .collection .coll-row .col img {
+        height: 215px; }
+      main .collection .coll-row .col .img-height-3 {
+        height: 163px; }
+      main .collection .coll-row .col .img-height-4 {
+        height: 310px; }
+      main .collection .coll-row .col .img-height-5 {
+        height: 290px; }
+      main .collection .coll-row .col .img-height-6 {
+        height: 172px; }
+      main .collection .coll-row .col .link-bg {
+        font-size: 20px;
+        top: 43.5%;
+        left: 32.5%;
+        letter-spacing: 4px; }
+      main .collection .coll-row .col .link-bg-2 {
+        top: 42.5%;
+        left: 37.5%; }
+      main .collection .coll-row .col .link-bg-3 {
+        top: 39.5%;
+        left: 26.5%; }
+      main .collection .coll-row .col .link-bg-4 {
+        top: 45.5%;
+        left: 35%; }
+      main .collection .coll-row .col .link-bg-5 {
+        top: 44%;
+        left: 38%; }
+      main .collection .coll-row .col .link-bg-6 {
+        top: 40%;
+        left: 32%; }
+      main .collection .coll-row .col .block-front:hover {
+        display: none; }
+    main .collection .coll-margin {
+      margin-bottom: 15px; }
+  main .block-h {
+    padding: 6px 0 26px 0; }
+  main .block-h:before {
+    content: url("images/arrow-mobiLT.png");
+    margin: 0px 15px 0 0; }
+  main .block-h:after {
+    content: url("images/arrow-mobiRT.png");
+    margin: 0 0px 0 15px; }
+  main .block-h2 {
+    padding: 26px 0 17px 0; }
+  main .block-h2:before {
+    margin: 0 26px 0 0; }
+  main .block-h2:after {
+    margin: 0 0 0 25px; }
+  main .style-header {
+    font-size: 17px; }
+  main .gallery-1 {
+    margin: 0 -87px; }
+  main .gallery-2 {
+    margin: 0 -130px; }
+  main .photos .col-photo:nth-child(1), main .photos .col-photo:nth-child(5) {
+    display: none; }
+  main .photos .col-photo:nth-child(2), main .photos .col-photo:nth-child(4) {
+    opacity: 0.4; }
+  main .photos .col-photo {
+    width: 27%;
+    margin: 0 6px; }
+    main .photos .col-photo .block-front {
+      display: none; }
+  main .photos .col-photo-last:nth-child(4) {
+    display: none; }
+  main .photos .col-photo-last:nth-child(1), main .photos .col-photo-last:nth-child(3) {
+    opacity: 0.4; }
+  main .photos .col-photo-last {
+    margin: 0 7px;
+    width: 29%; } }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,75 @@
+main{
+  .gallery-1,.gallery-2{
+    text-align: -webkit-center;
+    text-align: -moz-center;
+    margin: 0 168px;
+  }
+  .block-h{
+    text-align: -webkit-center;
+    text-align: -moz-center;
+    padding: 46px 0 30px 0;
+  }
+  .block-h:before{
+    content:url("images/arrow-LF.png");
+    margin: 0 25px 0 0;
+  }
+  .block-h:after{
+    content:url("images/arrowRT.png");
+    margin: 0 0 0 23px;
+
+  }
+  .style-header{
+    font-family: Rajdhani, sans-serif;
+    font-size: 23px;
+    color: #000000;
+    letter-spacing: 1px;
+  }
+  .photos{
+    .col-photo {
+      display: inline-block;
+      margin: 0 7.5px 0 8.5px;
+      width: 18%;
+      position: relative;
+      .block-front{
+        z-index: 1001;
+        background-color: #000000;
+        transition: all 0.4s ease-in-out 0s;
+        opacity: 0;
+        cursor: pointer;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        padding: 0 15px;
+      }
+      .block-front:hover{
+        opacity: 0.5;
+      }
+      .block-front:hover .block-likes{
+        .fa-heart:before{
+          color: #ffffff;
+          top: 34%;
+          left: 44%;
+          position: absolute;
+          font-size: 45px;
+        }
+        .text-likes{
+          color: #ffffff;
+          font-size: 20px;
+          font-family: Rajdhani, sans-serif;
+          position: absolute;
+          top: 58%;
+          left: 38%;
+        }
+      }
+    }
+    .col-photo-last{
+      display: inline-block;
+      margin: 0 7.5px;
+      width: 23%;
+    }
+    img {
+      width: 100%;
+    }
+  }
+}

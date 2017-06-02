@@ -1,3 +1,36 @@
-
+.col-products {
+  position: relative; }
+  .col-products .block-front {
+    z-index: 1001;
+    background-color: #ebb901;
+    transition: all 0.4s ease-in-out 0s;
+    opacity: 0;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    width: 92.5%;
+    height: 100%;
+    top: 0;
+    text-align: center; }
+    .col-products .block-front .ver-mais {
+      color: #000;
+      font-family: 'arvobold_italic', sans-serif;
+      font-size: 21px;
+      text-decoration: none;
+      position: absolute;
+      top: 40%;
+      left: 19%; }
+    .col-products .block-front .ver-mais:after {
+      content: "]";
+      font-family: 'arvobold';
+      font-size: 20px;
+      color: #ffffff; }
+    .col-products .block-front .ver-mais:before {
+      content: "[";
+      font-family: 'arvobold';
+      font-size: 20px;
+      color: #ffffff; }
+  .col-products .block-front:hover {
+    opacity: 0.8; }
 
 /*# sourceMappingURL=test.css.map */

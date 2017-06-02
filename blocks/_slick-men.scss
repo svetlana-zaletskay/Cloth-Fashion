@@ -59,22 +59,24 @@ main {
         display: none;
       }
       .hover-comprar {
-        display: none;
-      }
-      .hover-comprar:hover {
-        display: block !important;
-        color: #ffffff;
-        background-color: #4f4f4e;
-        position: absolute;
-        bottom: 23px;
-        width: 100%;
-        left: 9px;
-        text-align: -webkit-center;
-        font-family: Rajdhani, sans-serif;
-        font-size: 19px;
-        font-weight: 600;
-        letter-spacing: 2px;
-
+        height: 100%;
+        .hover-compare-content {
+          display: none;
+        }
+        .hover-comprar:hover .hover-compare-content {
+          display: block;
+          color: #ffffff;
+          background-color: #4f4f4e;
+          position: absolute;
+          bottom: 0;
+          width: 100%;
+          left: 0;
+          text-align: -webkit-center;
+          font-family: Rajdhani, sans-serif;
+          font-size: 19px;
+          font-weight: 600;
+          letter-spacing: 2px;
+        }
       }
       .product-1 {
         background: url('images/product-1.png') no-repeat;

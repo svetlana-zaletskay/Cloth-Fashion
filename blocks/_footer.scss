@@ -1,0 +1,29 @@
+footer {
+  margin: 200px;
+  .btn-arrow {
+    padding: 18px 29px 18px 33px;
+    position: relative;
+    background: #000000;
+    left: 50px;
+  }
+  .btn-arrow span {
+    position: relative;
+    z-index: 1;
+    color: #ffffff;
+    font-family: Rajdhani, sans-serif;
+    font-size: 20px;
+    letter-spacing: 3px
+  }
+  .btn-arrow:after {
+    content: '';
+    position: absolute;
+    right: -20px;
+    top: 50%;
+    background: #000000;
+    width: 40px;
+    height: 40px;
+    margin-top: -20px;
+    z-index: -1;
+    transform: rotate(45deg);
+  }
+}

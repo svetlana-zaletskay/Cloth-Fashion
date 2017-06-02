@@ -1,0 +1,29 @@
+.col-products {
+  position: relative;
+  .block-front {
+    z-index: 1001;
+    background-color: #ebb901;
+    transition: all 0.4s ease-in-out 0s;
+    opacity: 0;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    width: 92.5%;
+    height: 100%;
+    top: 0;
+    text-align: center;
+
+    .ver-mais {
+      color: #000;
+      font-family: 'arvobold_italic', sans-serif;
+      font-size: 21px;
+      text-decoration: none;
+      position: absolute;
+      top: 40%;
+      left: 19%;
+    }
+  }
+  .block-front:hover {
+    opacity: 0.8;
+  }
+}
