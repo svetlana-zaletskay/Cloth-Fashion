@@ -952,6 +952,14 @@ main .photos img {
       .menu-nav-desk .bg-nav .tablet-modal-body .panel-heading {
         margin: 0;
         padding: 15px 15px 14px 15px; }
+    .menu-nav-desk .bg-nav .modal-dialog-2 {
+      width: 450px; }
+      .menu-nav-desk .bg-nav .modal-dialog-2 .block-total {
+        margin: 158px 0 0 0; }
+      .menu-nav-desk .bg-nav .modal-dialog-2 .block-basket-2 {
+        width: 63%; }
+      .menu-nav-desk .bg-nav .modal-dialog-2 .modal-body-2 .close-X {
+        padding: 0 5px; }
 
   .img-main {
     min-height: 795px;
