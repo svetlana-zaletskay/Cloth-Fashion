@@ -13,16 +13,116 @@
 }
 
 @media (min-width: 1220px) and (max-width: 1367px) {
+  .slick-header {
+    .slick-dots {
+      top: 2px;
+      right: 11.5%;
+      li {
+        margin: 0 -2px 0 0;
+      }
+      button:before {
+        width: 7px;
+        height: 7px;
+      }
+    }
+    .bg {
+      .text-1, .text-2 {
+        font-size: 11px;
+        letter-spacing: 1px;
+      }
+      .text-2 {
+        padding: 0;
+      }
+    }
+  }
+  .slick-banner {
+    .slick-dots {
+      li {
+        margin: 0 4px 0 0;
+
+        button:before {
+          width: 15px;
+          height: 15px;
+        }
+      }
+    }
+    .img-main {
+      min-height: 601px;
+      .text-on-bg {
+        top: 37.5%;
+        .text-1 {
+          font-size: 32px;
+        }
+        .text-margin {
+          padding: 0 0 0 2%;
+          letter-spacing: 0px;
+        }
+        .text-2 {
+          font-size: 21px;
+        }
+        button {
+          padding: 0% 4% 0% 4%;
+          margin: 12% 0 0 13%;
+          .text-button {
+            font-size: 21px;
+          }
+        }
+      }
+      .text-on-bg:after {
+        width: 269px;
+        height: 2px;
+        top: 27%;
+        left: -18%;
+      }
+    }
+  }
   .menu-nav-mobi {
     display: none !important;
   }
   .menu-nav-desk {
     display: block;
-  }
-  .tablet-modal-body .modal-footer {
-    display: none;
+    .bg-nav {
+      max-width: 1088px;
+      .nav-h {
+        text-align: -webkit-right;
+        text-align: -moz-right;
+        width: 53.5%;
+        .style-h {
+          font-size: 27px;
+        }
+      }
+      .div-login {
+        width: 40%;
+      }
+      .nav-login {
+        padding: 0 16px 0 0;
+        .style-login {
+          font-size: 23px;
+        }
+      }
+      .modal-2 .modal-dialog-2 {
+        .modal-header-2 {
+          .title-basket {
+            font-size: 17px;
+            letter-spacing: 1px;
+            padding: 0 0 0 18px
+          }
+          .block-basket {
+            img {
+              width: 17%;
+            }
+          }
+        }
+      }
+    }
   }
   main {
+    .text-slick {
+      padding: 26px 0 2px 0;
+      .style-header {
+        font-size: 21px;
+      }
+    }
     .slick-men {
       margin: 0 196px;
       .slick-next {
@@ -55,11 +155,22 @@
       margin: 20px 0 29px 0;
     }
     .collection {
-      margin: 0 20px;
+      margin: 0 144px;
       .coll-row {
         .col {
           .img {
-            height: 400px;
+            width: 100%;
+            height: 382px;
+          }
+          .link-bg {
+            font-size: 30px;
+            letter-spacing: 4px;
+          }
+          .block-front {
+            .block-link {
+              font-size: 30px;
+              letter-spacing: 4px;
+            }
           }
           .block-front-3 {
             width: 97%;
@@ -77,10 +188,16 @@
       }
     }
     .gallery-1 {
-      margin: 0;
+      margin: 0 135px;
+    }
+    .block-h2 {
+      padding: 31px 0 30px 0;
+    }
+    .style-header {
+      font-size: 20px;
     }
     .gallery-2 {
-      margin: 0 19px;
+      margin: 0 135px;
     }
     .photos {
       .col-photo {
@@ -91,17 +208,52 @@
       }
     }
     .block-btn {
-      margin: 68px 44px 100px 44px;
+      margin: 68px 151px 32px 151px;
+      .button-style {
+        font-size: 18px;
+        padding: 9px 0;
+      }
+      .btn-wrapper:nth-child(1) .button-style:after {
+        top: -1px;
+        border-width: 23px 19px 22px 16px;
+      }
     }
   }
-  .footer-width{
-    width: 93.5%;
+  .footer-width {
+    width: 78.5%;
+    .link-style {
+      font-size: 14px;
+      margin: 0 32px 0 0;
+    }
+    .link-footer:nth-child(1) .sp-footer {
+      width: 4%;
+    }
+    .link-footer:nth-child(2) .sp-footer {
+      width: 13%;
+    }
+    .link-footer:nth-child(3) .sp-footer {
+      width: 9%;
+    }
+    .sp-footer {
+      margin: 0 0 0 3px;
+    }
   }
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
   .menu-nav-mobi {
     display: none !important;
+  }
+  .menu-nav-desk {
+    .bg-nav {
+      max-width: 870px;
+      .nav-h {
+        width: 77%;
+      }
+      .div-login {
+        width: 17%;
+      }
+    }
   }
   .tablet-modal-body .modal-footer {
     display: none;
@@ -181,7 +333,7 @@
       margin: 68px 36px 100px 36px;
     }
   }
-  .footer-width{
+  .footer-width {
     width: 92.5%;
   }
 }
@@ -269,12 +421,11 @@
     .bg-nav {
       background-color: #000000;
       position: relative;
-      height: 38px;
+      max-width: 100%;
       .btn-primary {
         text-align: -webkit-center;
         text-align: -moz-center;
-        margin: 7px 0 0 0;
-
+        margin: 0;
         background-color: #000;
         color: #000;
         border: none;
@@ -393,34 +544,40 @@
             }
           }
         }
-        .nav-h {
-          text-align: -webkit-center;
-          text-align: -moz-center;
+      }
+      .nav-h {
+        text-align: -webkit-right;
+        text-align: -moz-right;
+        width: 57%;
+        .style-h {
+          font-size: 27px;
         }
-        .nav-login {
-          text-align: -webkit-center;
-          text-align: -moz-center;
+      }
+      .div-login {
+        padding: 0;
+        width: 35%;
+        text-align: -webkit-right;
+        text-align: -moz-right;
+        vertical-align: super;
+      }
+      .nav-login {
+        text-align: -webkit-center;
+        text-align: -moz-center;
+        .style-login {
+          font-size: 22px;
         }
-        .nav-login .style-login {
-          font-size: 21px;
-        }
-        .div-login {
-          padding: 0;
-          margin: 5px 0 0 0;
-        }
-        .nav-basket {
-          padding: 0;
-        }
-        .nav-basket img {
-          width: 36px;
-          height: 26px;
+      }
+      .nav-basket {
+        padding: 0;
+        .img-basket {
+          width: 81%;
         }
       }
     }
   }
   main {
     .text-slick {
-      padding: 62px 0 15px 0;
+      padding: 2px 0 15px 0;
       .text-imgTablet {
         display: block;
       }
@@ -547,10 +704,10 @@
     .block-h2 {
       padding: 16px 0;
     }
-    .block-h2:after{
+    .block-h2:after {
       content: url("images/arrow-mobiRT.png");
     }
-    .block-h2:before{
+    .block-h2:before {
       content: url("images/arrow-mobiLT.png");
     }
 
@@ -581,31 +738,32 @@
       }
     }
   }
-  .footer-width{
+  .footer-width {
     width: 96%;
     padding: 6px 0 9px 0;
-    .block-sprites{
+    .block-sprites {
       width: 19%;
     }
-    .link-style{
+    .link-style {
       font-size: 13px;
       letter-spacing: 1px;
       margin: 0 25px 0 0;
     }
-    .link-footer:nth-child(1) .sp-footer{
-       width: 6%;
+    .link-footer:nth-child(1) .sp-footer {
+      width: 6%;
     }
-    .link-footer:nth-child(2) .sp-footer{
+    .link-footer:nth-child(2) .sp-footer {
       width: 15%;
     }
-    .link-footer:nth-child(3) .sp-footer{
+    .link-footer:nth-child(3) .sp-footer {
       width: 11%;
     }
-    .sp-footer{
-      margin:  0 0 0 3px;
+    .sp-footer {
+      margin: 0 0 0 3px;
     }
   }
 }
+
 @media (min-width: 320px) and (max-width: 767px) {
   .container-fluid {
     overflow: hidden;
@@ -981,7 +1139,7 @@
     .block-h2 {
       padding: 26px 0 17px 0;
     }
-    .gallery-1:nth-child(1) .block-h2{
+    .gallery-1:nth-child(1) .block-h2 {
       padding: 0 0 17px 0;
     }
     .block-h2:before {
@@ -1029,7 +1187,7 @@
     }
 
     .block-btn {
-      margin: 55px 14px 51px 14px;
+      margin: 55px 14px 55px 14px;
       .btn-wrapper:nth-child(1), .btn-wrapper:nth-child(2), .btn-wrapper:nth-child(3), .btn-wrapper:nth-child(4) {
         width: 100%;
         float: none;
@@ -1068,17 +1226,17 @@
       }
     }
   }
-  .footer-wrapper{
+  .footer-wrapper {
     background-color: #f1f1f1;
     width: 100%;
   }
-  .footer-width{
+  .footer-width {
     width: 100%;
     padding: 0;
-    .block-sprites, .block-link{
+    .block-sprites, .block-link {
       display: none;
     }
-    .logo-footer{
+    .logo-footer {
       display: block;
       text-align: -webkit-center;
       text-align: -moz-center;
