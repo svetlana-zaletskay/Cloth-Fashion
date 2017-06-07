@@ -100,18 +100,120 @@
           font-size: 23px;
         }
       }
+      .tablet-modal-body{
+        max-width: 410px;
+        .modal-header{
+          padding: 5px;
+          .title-menu{
+            font-size: 18px;
+            padding: 0 0 0 137px;
+          }
+          .close img{
+            width: 54%;
+          }
+        }
+        .modal-body{
+          .wrapper-header{
+            padding: 4px 0 4px 0;
+            .fa{
+              padding: 3px 6px 8px 5px;
+            }
+            .style-placeholder{
+              margin: 0 0 0 50px;
+              padding:4px 15px;
+              font-size: 15px;
+            }
+          }
+          .panel-heading{
+            margin: 0 0 0 123px;
+            padding: 13px 15px 9px 15px;
+            .title{
+              font-size: 15px;
+            }
+            .button-acordion{
+              font-size: 20px;
+            }
+          }
+          .panel-body{
+            p .categoria{
+              font-size: 15px;
+            }
+            .fa{
+              font-size: 18px;
+            }
+          }
+        }
+        .modal-footer{
+          padding: 99px 21px 15px 15px;
+        }
+      }
+      .modal-2{
+        padding-right: 0!important;
+      }
       .modal-2 .modal-dialog-2 {
+        width: 400px;
         .modal-header-2 {
+          padding: 7px 0 6px 0;
           .title-basket {
-            font-size: 17px;
+            font-size: 15px;
             letter-spacing: 1px;
             padding: 0 0 0 18px
           }
           .block-basket {
+            width: 36%;
             img {
-              width: 17%;
+              width: 20%;
             }
           }
+        }
+        .modal-body-2{
+          .text-basket{
+            padding: 6px 0 5px 0px;
+          }
+          .block-minus{
+            padding: 10px 0 0 0;
+          }
+          .title-basket-1{
+            font-size: 15px;
+          }
+          .price-basket{
+            font-size: 18px;
+            padding: 24px 0 0px 0;
+
+          }
+          .numerals{
+            font-size: 20px;
+            height: 27px;
+          }
+
+        }
+        .block-total{
+          margin: 166px 0 0 0;
+        }
+        .block-basket-1{
+          width: 35%;
+        }
+        .block-basket-2{
+          width: 64.2%;
+        }
+        .price-total{
+          width: 43%;
+          text-align: -webkit-center;
+          text-align: -moz-center;
+        }
+        .block-basket-1,.block-basket-2{
+          font-size: 18px;
+        }
+        .block-basket-1{
+          padding: 5px 0 0 0;
+        }
+        .block-basket-2{
+          width: 63.8%;
+          height: 68px;
+          padding: 0;
+        }
+        .chek-1,.chek-2{
+          font-size: 18px;
         }
       }
     }
@@ -248,15 +350,38 @@
     .bg-nav {
       max-width: 870px;
       .nav-h {
-        width: 77%;
+        width: 55%;
+        text-align: -webkit-right;
+        text-align: -moz-center;
       }
       .div-login {
-        width: 17%;
+        width: 38%;
+      }
+      .tablet-modal-body{
+        max-width: 424px;
+        .modal-header{
+          .title-menu{
+            padding: 0;
+          }
+          .close img{
+            width: 84%;
+          }
+        }
+        .modal-body{
+          .wrapper-header .style-placeholder{
+            width: 82%;
+            margin: 0;
+          }
+        }
+        .panel-heading{
+          margin: 0;
+          padding: 15px 15px 14px 15px;
+        }
+      }
+      .modal-dialog-2{
+        width: 450px;
       }
     }
-  }
-  .tablet-modal-body .modal-footer {
-    display: none;
   }
   .img-main {
     min-height: 795px;

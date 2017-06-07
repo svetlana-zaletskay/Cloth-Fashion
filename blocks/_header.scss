@@ -328,9 +328,13 @@
         letter-spacing: -2px;
       }
     }
+    .modal-2{
+      padding-right: 0;
+      margin: 0;
+    }
     .modal-2 .modal-dialog-2{
       float: right;
-      margin: 30px 0;
+      margin: 0;
       .modal-content-2{
         border-radius: 0;
         border: 2px solid #000000;
@@ -391,12 +395,12 @@
           line-height: 27px;
           background-color: #ffffff;
         }
-        .title-basket{
-          @include textBg;
-          font-size: 22px;
-          font-weight: 800;
-          letter-spacing: 1px;
-        }
+        .title-basket-1{
+           @include textBg;
+           font-size: 22px;
+           font-weight: 800;
+           letter-spacing: 1px;
+         }
         .color{
           background-color: #000000;
           width: 21px;

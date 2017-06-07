@@ -259,9 +259,12 @@ html {
       text-align: -moz-right; }
       .menu-nav-desk .bg-nav .nav-h .style-h {
         letter-spacing: -2px; }
+    .menu-nav-desk .bg-nav .modal-2 {
+      padding-right: 0;
+      margin: 0; }
     .menu-nav-desk .bg-nav .modal-2 .modal-dialog-2 {
       float: right;
-      margin: 30px 0; }
+      margin: 0; }
       .menu-nav-desk .bg-nav .modal-2 .modal-dialog-2 .modal-content-2 {
         border-radius: 0;
         border: 2px solid #000000; }
@@ -310,7 +313,7 @@ html {
           padding: 0 6px;
           line-height: 27px;
           background-color: #ffffff; }
-        .menu-nav-desk .bg-nav .modal-2 .modal-dialog-2 .modal-body-2 .title-basket {
+        .menu-nav-desk .bg-nav .modal-2 .modal-dialog-2 .modal-body-2 .title-basket-1 {
           font-family: Rajdhani, sans-serif;
           color: #000000;
           font-size: 35px;
@@ -769,12 +772,82 @@ main .photos img {
         padding: 0 16px 0 0; }
         .menu-nav-desk .bg-nav .nav-login .style-login {
           font-size: 23px; }
-      .menu-nav-desk .bg-nav .modal-2 .modal-dialog-2 .modal-header-2 .title-basket {
-        font-size: 17px;
-        letter-spacing: 1px;
-        padding: 0 0 0 18px; }
-      .menu-nav-desk .bg-nav .modal-2 .modal-dialog-2 .modal-header-2 .block-basket img {
-        width: 17%; }
+      .menu-nav-desk .bg-nav .tablet-modal-body {
+        max-width: 410px; }
+        .menu-nav-desk .bg-nav .tablet-modal-body .modal-header {
+          padding: 5px; }
+          .menu-nav-desk .bg-nav .tablet-modal-body .modal-header .title-menu {
+            font-size: 18px;
+            padding: 0 0 0 137px; }
+          .menu-nav-desk .bg-nav .tablet-modal-body .modal-header .close img {
+            width: 54%; }
+        .menu-nav-desk .bg-nav .tablet-modal-body .modal-body .wrapper-header {
+          padding: 4px 0 4px 0; }
+          .menu-nav-desk .bg-nav .tablet-modal-body .modal-body .wrapper-header .fa {
+            padding: 3px 6px 8px 5px; }
+          .menu-nav-desk .bg-nav .tablet-modal-body .modal-body .wrapper-header .style-placeholder {
+            margin: 0 0 0 50px;
+            padding: 4px 15px;
+            font-size: 15px; }
+        .menu-nav-desk .bg-nav .tablet-modal-body .modal-body .panel-heading {
+          margin: 0 0 0 123px;
+          padding: 13px 15px 9px 15px; }
+          .menu-nav-desk .bg-nav .tablet-modal-body .modal-body .panel-heading .title {
+            font-size: 15px; }
+          .menu-nav-desk .bg-nav .tablet-modal-body .modal-body .panel-heading .button-acordion {
+            font-size: 20px; }
+        .menu-nav-desk .bg-nav .tablet-modal-body .modal-body .panel-body p .categoria {
+          font-size: 15px; }
+        .menu-nav-desk .bg-nav .tablet-modal-body .modal-body .panel-body .fa {
+          font-size: 18px; }
+        .menu-nav-desk .bg-nav .tablet-modal-body .modal-footer {
+          padding: 99px 21px 15px 15px; }
+      .menu-nav-desk .bg-nav .modal-2 {
+        padding-right: 0 !important; }
+      .menu-nav-desk .bg-nav .modal-2 .modal-dialog-2 {
+        width: 400px; }
+        .menu-nav-desk .bg-nav .modal-2 .modal-dialog-2 .modal-header-2 {
+          padding: 7px 0 6px 0; }
+          .menu-nav-desk .bg-nav .modal-2 .modal-dialog-2 .modal-header-2 .title-basket {
+            font-size: 15px;
+            letter-spacing: 1px;
+            padding: 0 0 0 18px; }
+          .menu-nav-desk .bg-nav .modal-2 .modal-dialog-2 .modal-header-2 .block-basket {
+            width: 36%; }
+            .menu-nav-desk .bg-nav .modal-2 .modal-dialog-2 .modal-header-2 .block-basket img {
+              width: 20%; }
+        .menu-nav-desk .bg-nav .modal-2 .modal-dialog-2 .modal-body-2 .text-basket {
+          padding: 6px 0 5px 0px; }
+        .menu-nav-desk .bg-nav .modal-2 .modal-dialog-2 .modal-body-2 .block-minus {
+          padding: 10px 0 0 0; }
+        .menu-nav-desk .bg-nav .modal-2 .modal-dialog-2 .modal-body-2 .title-basket-1 {
+          font-size: 15px; }
+        .menu-nav-desk .bg-nav .modal-2 .modal-dialog-2 .modal-body-2 .price-basket {
+          font-size: 18px;
+          padding: 24px 0 0px 0; }
+        .menu-nav-desk .bg-nav .modal-2 .modal-dialog-2 .modal-body-2 .numerals {
+          font-size: 20px;
+          height: 27px; }
+        .menu-nav-desk .bg-nav .modal-2 .modal-dialog-2 .block-total {
+          margin: 166px 0 0 0; }
+        .menu-nav-desk .bg-nav .modal-2 .modal-dialog-2 .block-basket-1 {
+          width: 35%; }
+        .menu-nav-desk .bg-nav .modal-2 .modal-dialog-2 .block-basket-2 {
+          width: 64.2%; }
+        .menu-nav-desk .bg-nav .modal-2 .modal-dialog-2 .price-total {
+          width: 43%;
+          text-align: -webkit-center;
+          text-align: -moz-center; }
+        .menu-nav-desk .bg-nav .modal-2 .modal-dialog-2 .block-basket-1, .menu-nav-desk .bg-nav .modal-2 .modal-dialog-2 .block-basket-2 {
+          font-size: 18px; }
+        .menu-nav-desk .bg-nav .modal-2 .modal-dialog-2 .block-basket-1 {
+          padding: 5px 0 0 0; }
+        .menu-nav-desk .bg-nav .modal-2 .modal-dialog-2 .block-basket-2 {
+          width: 63.8%;
+          height: 68px;
+          padding: 0; }
+        .menu-nav-desk .bg-nav .modal-2 .modal-dialog-2 .chek-1, .menu-nav-desk .bg-nav .modal-2 .modal-dialog-2 .chek-2 {
+          font-size: 18px; }
 
   main .text-slick {
     padding: 26px 0 2px 0; }
@@ -862,12 +935,23 @@ main .photos img {
   .menu-nav-desk .bg-nav {
     max-width: 870px; }
     .menu-nav-desk .bg-nav .nav-h {
-      width: 77%; }
+      width: 55%;
+      text-align: -webkit-right;
+      text-align: -moz-center; }
     .menu-nav-desk .bg-nav .div-login {
-      width: 17%; }
-
-  .tablet-modal-body .modal-footer {
-    display: none; }
+      width: 38%; }
+    .menu-nav-desk .bg-nav .tablet-modal-body {
+      max-width: 424px; }
+      .menu-nav-desk .bg-nav .tablet-modal-body .modal-header .title-menu {
+        padding: 0; }
+      .menu-nav-desk .bg-nav .tablet-modal-body .modal-header .close img {
+        width: 84%; }
+      .menu-nav-desk .bg-nav .tablet-modal-body .modal-body .wrapper-header .style-placeholder {
+        width: 82%;
+        margin: 0; }
+      .menu-nav-desk .bg-nav .tablet-modal-body .panel-heading {
+        margin: 0;
+        padding: 15px 15px 14px 15px; }
 
   .img-main {
     min-height: 795px;
